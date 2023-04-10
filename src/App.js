@@ -14,7 +14,7 @@ function App() {
   }, []);
   return (
     <main>
-      <h1>May 4th 2024</h1>
+      <h1>Alex &#38; Regina</h1>
       <h2>
         A website with info about our wedding
       </h2>
