@@ -4,10 +4,13 @@ import (
 	"fmt"
 	"net/http"
 	"time"
+	"flag"
 )
 
 func Handler(w http.ResponseWriter, r *http.Request) {
-	// weddingTime := time.Date(2023,time.May, 4, 18, 0, 0, 0, time.UTC).Format(time.RFC850)
+	deadline := flag.String("2024-05-04T17:00:00+01:00")
+	flag.Parse()
+	fmt.Fprintf(w, *deadline)
 	currentTime := time.Now().Format(time.RFC850)
 	fmt.Fprintf(w, currentTime)
 }
