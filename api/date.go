@@ -11,5 +11,5 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	weddingTime := time.Date(2024, 05, 04, 18, 30, 00, 651387237, time.UTC)
 	diffTime := weddingTime.Sub(currentTime)
 	fmtTime := diffTime.String()
-	fmt.Println(w, fmtTime)
+	fmt.Fprintf(w, fmtTime)
 }
