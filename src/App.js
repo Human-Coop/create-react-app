@@ -22,7 +22,7 @@ function App() {
         List of pages and links coming soon
       </p>
       <br />
-      <h2>Current Time:</h2>
+      <h2>Countdown:</h2>
       <p>{countdown ? countdown : 'Loading date...'}</p>
     </main>
   );
