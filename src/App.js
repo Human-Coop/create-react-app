@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
-  const [date, setDate] = useState(null);
+  const [ countdown, setDate] = useState(null);
   useEffect(() => {
     async function getDate() {
       const res = await fetch('/api/date');
@@ -23,7 +23,7 @@ function App() {
       </p>
       <br />
       <h2>Current Time:</h2>
-      <p>{date ? date : 'Loading date...'}</p>
+      <p>{countdown ? countdown : 'Loading date...'}</p>
     </main>
   );
 }
