@@ -9,6 +9,6 @@ import (
 func Handler(w http.ResponseWriter, r *http.Request) {
 	currentTime := time.Now()
 	weddingTime := time.Date(2024, 05, 04, 18, 30, 00, 651387237, time.UTC)
-	diffTime := weddingTime.Sub(currentTime).Format(time.RFC850)
-	fmt.Fprintf(w, diffTime)
+	diffTime := weddingTime.Sub(currentTime)
+	fmt.Fprintf(w, diffTime.Format(time.RFC850))
 }
