@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
-  const [ minutes, setMin] = useState(null);
+  // const [ minutes, setMin] = useState(null);
   const [ countdown, setCountdown] = useState(null);
   useEffect(() => {
     async function getCountdown() {
