@@ -3,14 +3,15 @@ import { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
-  const [ countdown, setDate] = useState(null);
+  const [ minutes, setMin] = useState(null);
+  const [ countdown, setCountdown] = useState(null);
   useEffect(() => {
-    async function getDate() {
+    async function getCountdown() {
       const res = await fetch('/api/date');
       const newDate = await res.text();
-      setDate(newDate);
+      setCountdown(newDate);
     }
-    getDate();
+    getCountdown();
   }, []);
   return (
     <main>
@@ -23,7 +24,7 @@ function App() {
       </p>
       <br />
       <h2>Countdown:</h2>
-      <p>{countdown ? countdown : 'Loading date...'}</p>
+      <h3>{countdown ? countdown : 'Loading date...'}</h3>
     </main>
   );
 }
