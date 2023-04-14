@@ -18,6 +18,6 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	remainderWeeks := int64((totalDays % 30) / 7)
 	remainderMinutes := int64(totalMinutes - totalHours)
 
-	fmtTime := fmt.Sprintf("%d Months %d Weeks %d Days %d Hours", totalMonths, remainderWeeks, remainderDays, remainderHours)
+	fmtTime := fmt.Sprintf("%d Months %d Weeks %d Days %d Hours %d Minutes", totalMonths, remainderWeeks, remainderDays, remainderHours, remainderMinutes)
 	fmt.Fprintf(w, fmtTime)
 }
