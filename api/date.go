@@ -14,7 +14,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	totalDays := int64(totalHours / 24)
 	totalWeeks := int64(totalDays / 7)
 	remainderHours := int64(totalHours % 24)
-	remainderDays := int64(totaldays % 7)
+	remainderDays := int64(totalDays % 7)
 	remainderMinutes := int64(totalMinutes - totalHours*60)
 
 	fmtTime := fmt.Sprintf("%d Weeks %d Days %d Hours %d Minutes", totalWeeks, remainderDays, remainderHours, remainderMinutes)
