@@ -20,11 +20,11 @@ function App() {
         Wedding Events
       </h3>
       <ul>
-        <li>Crawfish Boil 5/3/2024 6:00pm <a>Details</a> | <a>RSVP</a></li>
-        <li>Wedding Ceremony 5/4/2024 6:00pm <a>Details</a> | <a>RSVP</a></li>
-        <li>Reception 5/4/2024 7:00pm <a>Details</a> | <a>RSVP</a></li>
-        <li>Lantern Parade to Afterpary 5/4/2024 11:00pm <a>Details</a></li>
-        <li>Bagel Brunch 5/5/2024 10:00am <a>Details</a> | <a>RSVP</a></li>
+        <li>Crawfish Boil <a>Details</a> | <a>RSVP</a></li>
+        <li>Wedding Ceremony <a>Details</a> | <a>RSVP</a></li>
+        <li>Reception <a>Details</a> | <a>RSVP</a></li>
+        <li>Lantern Parade to Afterpary <a>Details</a></li>
+        <li>Bagel Brunch <a>Details</a> | <a>RSVP</a></li>
       </ul>
       <br />
       <h3>
