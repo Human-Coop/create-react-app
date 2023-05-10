@@ -23,7 +23,7 @@ function App() {
         <li>Crawfish Boil 5/3/2024 6:00pm <a>Details</a> | <a>RSVP</a></li>
         <li>Wedding Ceremony 5/4/2024 6:00pm <a>Details</a> | <a>RSVP</a></li>
         <li>Reception 5/4/2024 7:00pm <a>Details</a> | <a>RSVP</a></li>
-        <li>Lantern Parade to Afterpary 5/4/2024 9:00pm <a>Details</a></li>
+        <li>Lantern Parade to Afterpary 5/4/2024 11:00pm <a>Details</a></li>
         <li>Bagel Brunch 5/5/2024 10:00am <a>Details</a> | <a>RSVP</a></li>
       </ul>
       <br />
