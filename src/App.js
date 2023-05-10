@@ -19,9 +19,16 @@ function App() {
       <h2>
         A website with info about our wedding
       </h2>
-      <p>
-        List of pages and links coming soon
-      </p>
+      <h3>
+        Wedding Events
+      </h3>
+      <ul>
+        <li>Crawfish Boil 5/3/2024 6:00pm</li>
+        <li>Wedding Ceremony 5/4/2024 6:00pm</li>
+        <li>Reception 5/4/2024 7:00pm</li>
+        <li>Lantern Parade to Afterpary 5/4/2024 9:00pm</li>
+        <li>Bagel Brunch 5/5/2024 10:00am</li>
+      </ul>
       <br />
       <h2>Countdown:</h2>
       <h3>{countdown ? countdown : 'Loading date...'}</h3>
