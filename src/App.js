@@ -16,9 +16,6 @@ function App() {
   return (
     <main>
       <h1>Alex &#38; Regina</h1>
-      <h2>
-        A website with info about our wedding
-      </h2>
       <h3>
         Wedding Events
       </h3>
