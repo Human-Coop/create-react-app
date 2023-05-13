@@ -45,5 +45,6 @@ code:after {
 
 .eventDetails{
   border: 1px solid black;
-  border-radius: 5;
+  border-radius: 25px;
+  margin:5px;
 }
