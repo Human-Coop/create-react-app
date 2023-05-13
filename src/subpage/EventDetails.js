@@ -7,9 +7,9 @@ function EventDetails({ event }) {
     <div class="eventDetails">
         <img width="300" src={event.picture} />
         <br></br>
-        <h4>Time&nbsp;:&nbsp;</h4><p> {event.time}</p>
+        <h4>Time&nbsp;:&nbsp;</h4><p>{event.time}</p>
         <br></br>
-        <h4>Location&nbsp;:&nbsp;</h4> <a href={event.maplink}> {event.location}</a>
+        <h4>Location&nbsp;:&nbsp;</h4> <a href={event.maplink}>{event.location}</a>
         <div>{event.description}</div>
     </div>
   )
