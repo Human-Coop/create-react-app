@@ -61,9 +61,9 @@ let events = [
   }
 ];
 
-export function getEventState(eventId) {
-  return events.find(({ state }) => id === eventId);
-}
+// export function getEventState(eventId) {
+//   return events.find(({ state }) => id === eventId);
+// }
 
 // export function setEventState(eventId) {
 //   my_event = events.find(({ id }) => id === eventId);
@@ -99,9 +99,9 @@ function App() {
         Wedding Events
       </h3>
       <ul>
-        {events.map((event,index)=>{
+        {getEvents().map((event,index)=>{
             return <li key={index}>{event.name} <button onClick={() => setToggle(!toggle)} >Details</button> | <a href={event.rsvp}>RSVP</a>
-                { getEventState(event.state) && <EventDetails event={event.id} />}
+                { toggle && <EventDetails event={event.id} />}
               </li>})}
       </ul>
       <br />
