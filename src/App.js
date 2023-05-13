@@ -12,7 +12,7 @@ let events = [
     maplink: "href",
     location: "State Park Cabins",
     description: "A Crawfish boil 'rehearsal dinner'",
-    state: false,
+    state: togglecrawfishBoil,
     rsvp: "href"
   },
   {
@@ -23,7 +23,7 @@ let events = [
     maplink: "href",
     location: "Beach",
     description: "A Beach Wedding Ceremony",
-    state: false,
+    state: toggleceremony,
     rsvp: "href"
   },
   {
@@ -34,7 +34,7 @@ let events = [
     maplink: "href",
     location: "Activities Center",
     description: "A reception with food, drinks, & dancing",
-    state: false,
+    state: togglereception,
     rsvp: "href"
   },
   {
@@ -45,7 +45,7 @@ let events = [
     maplink: "href",
     location: "State Park Cabins",
     description: "An parade from the activities center to the State Park Cabins for the after party bonfire",
-    state: false,
+    state: togglelanternParade,
     rsvp: "href"
   },
   {
@@ -56,7 +56,7 @@ let events = [
     maplink: "href",
     location: "State Park Cabins",
     description: "A bagel brunch",
-    state: false,
+    state: togglebagelBrunch,
     rsvp: "href"
   }
 ];
@@ -81,7 +81,11 @@ export function getEvents() {
 function App() {
   // const [ minutes, setMin] = useState(null);
   const [ countdown, setCountdown] = useState(null);
-  const [toggle, setToggle] = useState(false)
+  const [togglecrawfishBoil, setTogglecrawfishBoil] = useState(false);
+  const [toggleceremony, setToggleceremony] = useState(false);
+  const [togglereception, setTogglereception] = useState(false);
+  const [togglelanternParade, setTogglelanternParade] = useState(false);
+  const [togglebagelBrunch, setTogglebagelBrunch] = useState(false)
 
   useEffect(() => {
     async function getCountdown() {
@@ -99,8 +103,8 @@ function App() {
       </h3>
       <ul>
         {getEvents().map((event,index)=>{
-            return <li key={index}>{event.name} <a onClick={() => setEventState(event.id)} >Details</a> | <a href={event.rsvp}>RSVP</a>
-                { getEventState(event.id) && <EventDetails event={event} />}
+            return <li key={index}>{event.name} <a onClick={() => setTogglecrawfishBoil(!togglecrawfishBoil)} >Details</a> | <a href={event.rsvp}>RSVP</a>
+                { togglecrawfishBoil && <EventDetails event={event} />}
               </li>})}
       </ul>
       <br />
