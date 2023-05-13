@@ -16,7 +16,7 @@ function App() {
     {
       name: "Crawfish Boil",
       id: "crawfishBoil",
-      picture:"/path",
+      picture:"https://www.cajungrocer.com/image/cache/wp/gj/articles/Live-Crawfish-1140x800.webp",
       time: "6:00pm May 3rd 2024",
       maplink: "href",
       location: "State Park Cabins",
@@ -95,8 +95,8 @@ function App() {
       </h3>
       <ul>
         {getEvents().map((event,index)=>{
-            return <li key={index}>{event.name} 
-                <a onClick={() => event.toggle(!event.state)} >Details</a> | 
+            return <li key={index}>{event.name}&nbsp; 
+                <a onClick={() => event.toggle(!event.state)} >Details</a> |&nbsp;
                 { event.rsvp &&<a href={event.rsvp}>RSVP</a>}
                 { event.state && <EventDetails event={event} />}
               </li>})}

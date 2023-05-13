@@ -42,3 +42,8 @@ code:before,
 code:after {
   content: '\`';
 }
+
+.eventDetails{
+  border: 1px solid black;
+  border-radius: 5;
+}
