@@ -1,10 +1,89 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
+import EventDetails from './subpage/EventDetails';
 import './App.css';
+
+let events = [
+  {
+    name: "Crawfish Boil",
+    id: "crawfishBoil",
+    picture:"/path",
+    time: "6:00pm May 3rd 2024",
+    maplink: "href",
+    location: "State Park Cabins",
+    description: "A Crawfish boil 'rehearsal dinner'",
+    state: false,
+    rsvp: "href"
+  },
+  {
+    name: "Wedding Ceremony",
+    id: "ceremony",
+    picture:"/path",
+    time: "5:00pm May 4th 2024",
+    maplink: "href",
+    location: "Beach",
+    description: "A Beach Wedding Ceremony",
+    state: false,
+    rsvp: "href"
+  },
+  {
+    name: "Reception",
+    id: "reception",
+    picture:"/path",
+    time: "7:00pm May 4th 2024",
+    maplink: "href",
+    location: "Activities Center",
+    description: "A reception with food, drinks, & dancing",
+    state: false,
+    rsvp: "href"
+  },
+  {
+    name: "Lantern Parade",
+    id: "lanternParade",
+    picture:"/path",
+    time: "11:00pm May 4th 2024",
+    maplink: "href",
+    location: "State Park Cabins",
+    description: "An parade from the activities center to the State Park Cabins for the after party bonfire",
+    state: false,
+    rsvp: "href"
+  },
+  {
+    name: "Bagel Brunch",
+    id: "bagelBrunch",
+    picture:"/path",
+    time: "10:00am May 5th 2024",
+    maplink: "href",
+    location: "State Park Cabins",
+    description: "A bagel brunch",
+    state: false,
+    rsvp: "href"
+  }
+];
+
+export function getEventState(eventId) {
+  my_event = events.find(({ id }) => id === eventId);
+  return my_event.state;
+}
+
+export function setEventState(eventId) {
+  my_event = events.find(({ id }) => id === eventId);
+  my_event.state = !my_event.state;
+  // return my_event.state;
+}
+
+export function getEvent(eventId) {
+  return events.find(({ id }) => id === eventId);
+}
+
+export function getEvents() {
+  return events;
+}
 
 function App() {
   // const [ minutes, setMin] = useState(null);
   const [ countdown, setCountdown] = useState(null);
+
   useEffect(() => {
     async function getCountdown() {
       const res = await fetch('/api/date');
@@ -20,11 +99,10 @@ function App() {
         Wedding Events
       </h3>
       <ul>
-        <li>Crawfish Boil <a>Details</a> | <a>RSVP</a></li>
-        <li>Wedding Ceremony <a>Details</a> | <a>RSVP</a></li>
-        <li>Reception <a>Details</a> | <a>RSVP</a></li>
-        <li>Lantern Parade to Afterpary <a>Details</a></li>
-        <li>Bagel Brunch <a>Details</a> | <a>RSVP</a></li>
+        {events.map((event,index)=>{
+            return <li key={index}>{event.name} <button onClick={() => setEventState(event.state)} >Details</button> | <a href={event.rsvp}>RSVP</a>
+                { getEventState(event.state) && <EventDetails event={event.id} />}
+              </li>})}
       </ul>
       <br />
       <h3>
@@ -33,7 +111,9 @@ function App() {
       <ul>
         <li>State Park Cabins <a>Book</a></li>
         <li>State Park Hotel <a>Book</a></li>
-        <li>Stake Park camping <a>Book</a></li>
+        <li>Stake Park Primitive camping <a>Book</a></li>
+        <li>Stake Park RV camping <a>Book</a></li>
+        <li>Nearby airbnbs <a>Book</a></li>
       </ul>
       <br />
       <h2>Countdown:</h2>
