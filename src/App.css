@@ -48,3 +48,9 @@ code:after {
   border-radius: 25px;
   margin:5px;
 }
+
+.spacer{
+  margin: none;
+  padding: none;
+  display: inline;
+}

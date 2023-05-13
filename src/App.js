@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import EventDetails from './subpage/EventDetails';
+import Spacer from './subpage/spacer';
 import './App.css';
 
 function App() {
@@ -96,7 +97,8 @@ function App() {
       <ul>
         {getEvents().map((event,index)=>{
             return <li key={index}>{event.name}&nbsp; 
-                <a onClick={() => event.toggle(!event.state)} >Details</a>&nbsp;&nbsp;&nbsp;
+                <a onClick={() => event.toggle(!event.state)} >Details</a>
+                { event.rsvp && <Spacer /> }
                 { event.rsvp && <a href={event.rsvp}>RSVP</a> }
                 { event.state && <EventDetails event={event} />}
               </li>})}
