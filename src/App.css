@@ -48,10 +48,16 @@ code:after {
   content: '\`';
 }
 
+img{
+  padding: none;
+  margin: none;
+}
+
 .eventDetails{
   border: 1px solid black;
   border-radius: 25px;
   margin:5px;
+  padding: 5px;
 }
 
 .spacer{

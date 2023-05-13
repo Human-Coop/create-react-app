@@ -6,6 +6,7 @@ function EventDetails({ event }) {
   return (
     <div class="eventDetails">
         <img width="300" src={event.picture} />
+        <br></br>
         <h4>Time:</h4><p> {event.time}</p>
         <h4>Location:</h4> <a href={event.maplink}> {event.location}</a>
         <div>{event.description}</div>
