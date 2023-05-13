@@ -99,7 +99,7 @@ function App() {
       </h3>
       <ul>
         {getEvents().map((event,index)=>{
-            return <li key={index}>{event.name} <a href='#' onClick={() => setEventState(event.id)} >Details</a> | <a href={event.rsvp}>RSVP</a>
+            return <li key={index}>{event.name} <a onClick={() => setEventState(event.id)} >Details</a> | <a href={event.rsvp}>RSVP</a>
                 { getEventState(event.id) && <EventDetails event={event} />}
               </li>})}
       </ul>
