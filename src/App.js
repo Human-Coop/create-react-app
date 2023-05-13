@@ -62,15 +62,14 @@ let events = [
 ];
 
 export function getEventState(eventId) {
-  my_event = events.find(({ id }) => id === eventId);
-  return my_event.state;
+  return events.find(({ state }) => id === eventId);
 }
 
-export function setEventState(eventId) {
-  my_event = events.find(({ id }) => id === eventId);
-  my_event.state = !my_event.state;
-  // return my_event.state;
-}
+// export function setEventState(eventId) {
+//   my_event = events.find(({ id }) => id === eventId);
+//   my_event.state = !my_event.state;
+//   // return my_event.state;
+// }
 
 export function getEvent(eventId) {
   return events.find(({ id }) => id === eventId);
@@ -83,6 +82,7 @@ export function getEvents() {
 function App() {
   // const [ minutes, setMin] = useState(null);
   const [ countdown, setCountdown] = useState(null);
+  const [toggle, setToggle] = useState(false)
 
   useEffect(() => {
     async function getCountdown() {
@@ -100,7 +100,7 @@ function App() {
       </h3>
       <ul>
         {events.map((event,index)=>{
-            return <li key={index}>{event.name} <button onClick={() => setEventState(event.state)} >Details</button> | <a href={event.rsvp}>RSVP</a>
+            return <li key={index}>{event.name} <button onClick={() => setToggle(!toggle)} >Details</button> | <a href={event.rsvp}>RSVP</a>
                 { getEventState(event.state) && <EventDetails event={event.id} />}
               </li>})}
       </ul>
