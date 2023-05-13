@@ -96,9 +96,9 @@ function App() {
       <ul>
         {getEvents().map((event,index)=>{
             return <li key={index}>{event.name} 
-                <p><a onClick={() => setTogglecrawfishBoil(!togglecrawfishBoil)} >Details</a></p>
-                { event.rsvp &&<p>| <a href={event.rsvp}>| RSVP</a> </p>}
-                { togglecrawfishBoil && <EventDetails event={event} />}
+                <a onClick={() => event.toggle(!event.state)} >Details</a> | 
+                { event.rsvp &&<a href={event.rsvp}>RSVP</a>}
+                { event.state && <EventDetails event={event} />}
               </li>})}
       </ul>
       <br />
