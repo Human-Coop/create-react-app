@@ -10,7 +10,7 @@ function EventDetails({ event }) {
         <h4>Time&nbsp;:&nbsp;</h4><p>{event.time}</p>
         <br></br>
         <h4>Location&nbsp;:&nbsp;</h4> <a href={event.maplink}>{event.location}</a>
-        <div>{event.description}</div>
+        <div class="eventDescription">{event.description}</div>
     </div>
   )
 }
