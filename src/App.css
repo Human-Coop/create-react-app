@@ -48,9 +48,8 @@ code:after {
   content: '\`';
 }
 
-img{
-  padding: none;
-  margin: none;
+p{
+  display: inline-block;
 }
 
 .eventDetails{
