@@ -12,7 +12,7 @@ let events = [
     maplink: "href",
     location: "State Park Cabins",
     description: "A Crawfish boil 'rehearsal dinner'",
-    state: togglecrawfishBoil,
+    state: "togglecrawfishBoil",
     rsvp: "href"
   },
   {
@@ -23,7 +23,7 @@ let events = [
     maplink: "href",
     location: "Beach",
     description: "A Beach Wedding Ceremony",
-    state: toggleceremony,
+    state: "toggleceremony",
     rsvp: "href"
   },
   {
@@ -34,7 +34,7 @@ let events = [
     maplink: "href",
     location: "Activities Center",
     description: "A reception with food, drinks, & dancing",
-    state: togglereception,
+    state: "togglereception",
     rsvp: "href"
   },
   {
@@ -45,7 +45,7 @@ let events = [
     maplink: "href",
     location: "State Park Cabins",
     description: "An parade from the activities center to the State Park Cabins for the after party bonfire",
-    state: togglelanternParade,
+    state: "togglelanternParade",
     rsvp: "href"
   },
   {
@@ -56,7 +56,7 @@ let events = [
     maplink: "href",
     location: "State Park Cabins",
     description: "A bagel brunch",
-    state: togglebagelBrunch,
+    state: "togglebagelBrunch",
     rsvp: "href"
   }
 ];
