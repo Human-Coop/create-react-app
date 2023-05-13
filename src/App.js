@@ -101,7 +101,7 @@ function App() {
       <ul>
         {getEvents().map((event,index)=>{
             return <li key={index}>{event.name} <a href='#' onClick={() => setToggle(!toggle)} >Details</a> | <a href={event.rsvp}>RSVP</a>
-                { getEventState(event.id) && <EventDetails event={event.id} />}
+                { getEventState(event.id) && <EventDetails event={event} />}
               </li>})}
       </ul>
       <br />
