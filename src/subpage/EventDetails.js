@@ -5,11 +5,11 @@ import '../App.css';
 function EventDetails({ event }) {
   return (
     <div>
-      <h1>{event.name}</h1>
+      <h4>{event.name}</h4>
 
       <div>
         <img src={event.picture} />
-        <h3>{event.time}</h3>
+        <p>{event.time}</p>
         <p><a href={event.maplink}> {event.location}</a></p>
         <p>{event.description}</p>
       </div>

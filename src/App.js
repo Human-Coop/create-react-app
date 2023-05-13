@@ -38,7 +38,7 @@ let events = [
     rsvp: "href"
   },
   {
-    name: "Lantern Parade",
+    name: "Lantern Parade / After Party",
     id: "lanternParade",
     picture:"/path",
     time: "11:00pm May 4th 2024",
@@ -46,7 +46,6 @@ let events = [
     location: "State Park Cabins",
     description: "An parade from the activities center to the State Park Cabins for the after party bonfire",
     state: "togglelanternParade",
-    rsvp: "href"
   },
   {
     name: "Bagel Brunch",
@@ -103,7 +102,9 @@ function App() {
       </h3>
       <ul>
         {getEvents().map((event,index)=>{
-            return <li key={index}>{event.name} <a onClick={() => setTogglecrawfishBoil(!togglecrawfishBoil)} >Details</a> | <a href={event.rsvp}>RSVP</a>
+            return <li key={index}>{event.name}
+                <a onClick={() => setTogglecrawfishBoil(!togglecrawfishBoil)} > Details </a>
+                { event.rsvp && <a href={event.rsvp}>| RSVP</a> }
                 { togglecrawfishBoil && <EventDetails event={event} />}
               </li>})}
       </ul>
