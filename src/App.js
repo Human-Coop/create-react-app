@@ -8,10 +8,15 @@ function App() {
   // const [ minutes, setMin] = useState(null);
   const [ countdown, setCountdown] = useState(null);
   const [togglecrawfishBoil, setTogglecrawfishBoil] = useState(false);
+  const [togglecrawfishBoilRSVP, setTogglecrawfishBoilRSVP] = useState(false);
   const [toggleceremony, setToggleceremony] = useState(false);
+  const [toggleceremonyRSVP, setToggleceremonyRSVP] = useState(false);
+
   const [togglereception, setTogglereception] = useState(false);
+  const [togglereceptionRSVP, setTogglereceptionRSVP] = useState(false);
   const [togglelanternParade, setTogglelanternParade] = useState(false);
   const [togglebagelBrunch, setTogglebagelBrunch] = useState(false)
+  const [togglebagelBrunchRSVP, setTogglebagelBrunchRSVP] = useState(false)
 
   let events = [
     {
@@ -25,7 +30,9 @@ function App() {
       "This event will be outdoors. There will be some available seating but feel free to bring your own beach chairs if you have 'em.",
       toggle: setTogglecrawfishBoil,
       state: togglecrawfishBoil,
-      rsvp: "https://docs.google.com/forms/d/e/1FAIpQLScuV7-xgnQ-ytCvIVNLC2rEnZhBU63JP8zCAIM7Xk-rqL5ELA/viewform"
+      rsvp: "https://docs.google.com/forms/d/e/1FAIpQLScuV7-xgnQ-ytCvIVNLC2rEnZhBU63JP8zCAIM7Xk-rqL5ELA/viewform",
+      rsvpState: togglecrawfishBoilRSVP,
+      rsvptoggle: setTogglecrawfishBoilRSVP
     },
     {
       name: "Wedding Ceremony",
@@ -37,7 +44,11 @@ function App() {
       description: "A Beach Wedding Ceremony",
       toggle: setToggleceremony,
       state: toggleceremony,
-      rsvp: "href"
+      rsvp: "href",
+      rsvpState: toggleceremonyRSVP,
+      rsvptoggle: setToggleceremonyRSVP,
+      rsvpForm: <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdhbk3GYbtFOooTTrS4u9GypjCTUc5jcDNQavfM-6Yt6x07Zg/viewform?embedded=true" width="640" height="743" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
     },
     {
       name: "Reception",
@@ -49,7 +60,9 @@ function App() {
       description: "A reception with food, drinks, & dancing",
       toggle: setTogglereception,
       state: togglereception,
-      rsvp: "href"
+      rsvp: "href",
+      rsvpState: togglereceptionRSVP,
+      rsvptoggle: setTogglereceptionRSVP
     },
     {
       name: "Lantern Parade / After Party",
@@ -72,7 +85,9 @@ function App() {
       description: "A bagel brunch",
       toggle: setTogglebagelBrunch,
       state: togglebagelBrunch,
-      rsvp: "href"
+      rsvp: "href",
+      rsvpState: togglebagelBrunchRSVP,
+      rsvptoggle: setTogglebagelBrunchRSVP
     }
   ];
 
@@ -100,8 +115,9 @@ function App() {
             return <li key={index}>{event.name}&nbsp; 
                 <a onClick={() => event.toggle(!event.state)} >Details</a>
                 { event.rsvp && <Spacer /> }
-                { event.rsvp && <a href={event.rsvp}>RSVP</a> }
+                { event.rsvp && <a onClick={() => event.rsvpToggle(!event.rsvpState)} >RSVP</a> }
                 { event.state && <EventDetails event={event} />}
+                { event.rsvpState && event.rsvpForm}
               </li>})}
       </ul>
       <br />
