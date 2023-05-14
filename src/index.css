@@ -21,4 +21,5 @@ ul {
 img{
   padding: none;
   margin: none;
+  object-fit: cover;
 }
