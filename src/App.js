@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect, useState } from 'react';
 import EventDetails from './subpage/EventDetails';
 import EventForm from './subpage/EventForm';
+import BookingInfo from './subpage/BookingInfo';
 import Spacer from './subpage/spacer';
 import './App.css';
 
@@ -12,12 +13,17 @@ function App() {
   const [togglecrawfishBoilRSVP, setTogglecrawfishBoilRSVP] = useState(false);
   const [toggleceremony, setToggleceremony] = useState(false);
   const [toggleceremonyRSVP, setToggleceremonyRSVP] = useState(false);
-
   const [togglereception, setTogglereception] = useState(false);
   const [togglereceptionRSVP, setTogglereceptionRSVP] = useState(false);
   const [togglelanternParade, setTogglelanternParade] = useState(false);
-  const [togglebagelBrunch, setTogglebagelBrunch] = useState(false)
-  const [togglebagelBrunchRSVP, setTogglebagelBrunchRSVP] = useState(false)
+  const [togglebagelBrunch, setTogglebagelBrunch] = useState(false);
+  const [togglebagelBrunchRSVP, setTogglebagelBrunchRSVP] = useState(false);
+
+  const [toggleCabinInfo, setToggleCabinInfo] = useState(false);
+  const [toggleHotelInfo, setToggleHotelInfo] = useState(false);
+  const [togglePrimInfo, setTogglePrimInfo] = useState(false);
+  const [toggleRVInfo, setToggleRVInfo] = useState(false);
+  const [toggleBnBInfo, setToggleBnBInfo] = useState(false);
 
   let events = [
     {
@@ -94,6 +100,58 @@ function App() {
     }
   ];
 
+  let places = [{
+    name:"State Park Cabins",
+    sleeps:6,
+    costs:"",
+    picture:"",
+    description:"",
+    booklink:"",
+    toggle: setToggleCabinInfo,
+    state: toggleCabinInfo,
+  },{
+    name:"State Park Hotel",
+    sleeps:6,
+    costs:"",
+    picture:"",
+    description:"",
+    booklink:"",
+    toggle: setToggleHotelInfo,
+    state: toggleHotelInfo,
+  },{
+    name:"Stake Park Primitive camping",
+    sleeps:6,
+    costs:"",
+    picture:"",
+    description:"",
+    booklink:"",
+    toggle: setTogglePrimInfo,
+    state: togglePrimInfo,
+  },{
+    name:"Stake Park RV camping",
+    sleeps:6,
+    costs:"",
+    picture:"",
+    description:"",
+    booklink:"",
+    toggle: setToggleRVInfo,
+    state: toggleRVInfo,
+  },{
+    name:"Nearby airbnbs",
+    sleeps:6,
+    costs:"",
+    picture:"",
+    description:"",
+    booklink:"",
+    toggle: setToggleBnBInfo,
+    state: toggleBnBInfo,
+  }
+];
+
+  function getPlaces() {
+    return places;
+  }
+
   function getEvents() {
     return events;
   }
@@ -140,11 +198,12 @@ function App() {
         Sleeping Accomodation Suggestions
       </h3>
       <ul>
-        <li>State Park Cabins <a>Book</a></li>
-        <li>State Park Hotel <a>Book</a></li>
-        <li>Stake Park Primitive camping <a>Book</a></li>
-        <li>Stake Park RV camping <a>Book</a></li>
-        <li>Nearby airbnbs <a>Book</a></li>
+      {getPlaces().map((place,index)=>{
+            return <li key={index}>{place.name}&nbsp;
+                <a onClick={() => place.toggle(!place.state)} >Info</a><Spacer />
+                <a href={place.booklink} >Book</a>
+                {place.state && <BookingInfo place={place} />}
+                </li>})}
       </ul>
       <br />
       <h2>Countdown:</h2>
