@@ -42,7 +42,7 @@ function App() {
     {
       name: "Reception",
       id: "reception",
-      picture:"/path",
+      picture:"https://photos.app.goo.gl/e2cYZYi8yfsTEsT39",
       time: "7:00pm May 4th 2024",
       maplink: "href",
       location: "Activities Center",

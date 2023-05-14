@@ -5,7 +5,7 @@ import '../App.css';
 function EventDetails({ event }) {
   return (
     <div class="eventDetails">
-        <img width="300" src={event.picture} />
+        <img width="300" height="200" src={event.picture} />
         <br></br>
         <h4>Time&nbsp;:&nbsp;</h4><p>{event.time}</p>
         <br></br>
