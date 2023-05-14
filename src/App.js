@@ -97,6 +97,18 @@ function App() {
     return events;
   }
 
+  function clickDetails(event){
+    event.toggle(!event.state);
+    event.rsvptoggle(false);
+    return;
+  }
+
+  function clickForm(event){
+    event.toggle(false);
+    event.rsvptoggle(!event.rsvpState);
+    return;
+  }
+
   useEffect(() => {
     async function getCountdown() {
       const res = await fetch('/api/date');
@@ -115,9 +127,9 @@ function App() {
       <ul>
         {getEvents().map((event,index)=>{
             return <li key={index}>{event.name}&nbsp; 
-                <a onClick={() => event.toggle(!event.state)} >Details</a>
+                <a onClick={() => clickDetails(event)} >Details</a>
                 { event.rsvp && <Spacer /> }
-                { event.rsvp && <a onClick={() => event.rsvptoggle(!event.rsvpState)} >RSVP</a> }
+                { event.rsvp && <a onClick={() => clickForm(event)} >RSVP</a> }
                 { event.state && <EventDetails event={event} />}
                 { event.rsvpState && <EventForm event={event} />}
               </li>})}
