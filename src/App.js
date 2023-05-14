@@ -69,7 +69,7 @@ function App() {
     {
       name: "Lantern Parade / After Party",
       id: "lanternParade",
-      picture: "UyThTl2Jn63yAQa_xy9MiPlAzTKjr_mAm_ALv1C6b4hhOHADDeYx0AihHKDwbTZAKjETvT5c2GNGZ4nEBhQmEU9BtSc3BF49NZOSRXCofdQG7ffSoUZgKlzRmF9MfCIUGC03yebYYZZXQB9AyxYqV_o5XMXvSd0yOjl1P5X__5uZo1iYXY9awpLnoWwp1hcn_x0HfUPWrOiqDlDD0lA8B8EHlJO2lddBj0Pts7XT3hSqqNbTTrEWvBNaWCQeoX5ZXjwUuPeb",
+      picture: "https://lh3.googleusercontent.com/UyThTl2Jn63yAQa_xy9MiPlAzTKjr_mAm_ALv1C6b4hhOHADDeYx0AihHKDwbTZAKjETvT5c2GNGZ4nEBhQmEU9BtSc3BF49NZOSRXCofdQG7ffSoUZgKlzRmF9MfCIUGC03yebYYZZXQB9AyxYqV_o5XMXvSd0yOjl1P5X__5uZo1iYXY9awpLnoWwp1hcn_x0HfUPWrOiqDlDD0lA8B8EHlJO2lddBj0Pts7XT3hSqqNbTTrEWvBNaWCQeoX5ZXjwUuPeb-IalGvut02TCobgo2lQzMQloatgGVbPp6U_HOf4ZmD5XYNOqGRD2IJetMB6Z4JP8eyyXPp_HCs4LFzx_9nqO0o_IqosRba7n4g9kfGklsR6i3Fz86kXOOdZ8L3q6AHpxH57CTYxls0bsgtG29Rh6scosaoRITr6AQuWIzc7QtozdDAba_ei8uGDPjFHPszCZ4sB6EUCkn5AU6aT05-hWN8k2nc12xQ18PnAYMVeYh-abM1pdnKOjp3BsrZ_UF-PVbRJ1vGP5vPtsREoamvNI4y2jWs-SaM-N1LTtywWPW7r_3eaMkYk164oWIfR_Ui9ZnsAmOHnNfRSuApEP7_Tq_xxnYFwVnjdX-WfPIsjdNB7Nykt-ubc8Pa-ONx1psbBDmEMPnWnG8h8vXecAa19xRi3yv34QVVS0B35q88R2bXYlvGUbzUI3KYpKw0LMK-vytlNNTm-BsJaRKDA1GPuhrL2FgKjwLDCR825HaVxWKddSMUcEcz7qxBz3ELwspTaBtZ9QwdWDgtzAOi-ffVDU1PLK_L7UNUbPZGzafvUEshVB-yMHwt6x3KHdpcqwHcbsR_Xn6Fw9XG4LcUeX4ealJCkWQ-S3R8aRactKB4Be_Pp04f_Gl9gzOJPXpSjMt7_bFrKlDKDG9EOPQtw8sjSszVAEH8XMQ2CI_hGakL1uGA=w360-h480-s-no?authuser=0",
       time: "11:00pm May 4th 2024",
       maplink: "href",
       location: "State Park Cabins",
