@@ -62,7 +62,8 @@ function App() {
       state: togglereception,
       rsvp: "href",
       rsvpState: togglereceptionRSVP,
-      rsvptoggle: setTogglereceptionRSVP
+      rsvptoggle: setTogglereceptionRSVP,
+      rsvpForm: "https://docs.google.com/forms/d/e/1FAIpQLSc77ffeLjR4-9WjkI0409iNJzsyEnQPrdfa0CpRH3UFXzG-TA/viewform?embedded=true"
     },
     {
       name: "Lantern Parade / After Party",
@@ -117,7 +118,7 @@ function App() {
                 { event.rsvp && <Spacer /> }
                 { event.rsvp && <a onClick={() => event.rsvpToggle(!event.rsvpState)} >RSVP</a> }
                 { event.state && <EventDetails event={event} />}
-                { event.rsvpState && event.rsvpForm}
+                { event.rsvpState && <EventForm event={event} />}
               </li>})}
       </ul>
       <br />
