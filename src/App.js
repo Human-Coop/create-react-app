@@ -33,7 +33,8 @@ function App() {
       state: togglecrawfishBoil,
       rsvp: "https://docs.google.com/forms/d/e/1FAIpQLScuV7-xgnQ-ytCvIVNLC2rEnZhBU63JP8zCAIM7Xk-rqL5ELA/viewform",
       rsvpState: togglecrawfishBoilRSVP,
-      rsvptoggle: setTogglecrawfishBoilRSVP
+      rsvptoggle: setTogglecrawfishBoilRSVP,
+      rsvpForm: "https://docs.google.com/forms/d/e/1FAIpQLScuV7-xgnQ-ytCvIVNLC2rEnZhBU63JP8zCAIM7Xk-rqL5ELA/viewform?embedded=true"
     },
     {
       name: "Wedding Ceremony",
