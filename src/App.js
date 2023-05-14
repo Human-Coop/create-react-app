@@ -42,7 +42,7 @@ function App() {
     {
       name: "Reception",
       id: "reception",
-      picture:"https://photos.app.goo.gl/e2cYZYi8yfsTEsT39",
+      picture:"https://lh3.googleusercontent.com/CuAoL8CdGPZYGCddYnsl3eJD-hf-nqLBn5lNmimAtyxq58JWyAfhzILJUDnEUuEUyrBbUqtdVGTllQ_zpoUmCF9wor6dcRPGl8K4CieXkNE6-bMsnRkstPLumZITUD0hI0sM8L0-sr-I7QPhSndvmnUQdRTVOUCUm9Z1KL3FdbnRAs2-TWQgbzcPw2W-UCz-_avhmHS8DpAA8EjTMOgqZ9YQKfkyoCqBJhRb-4l8FyZHF5SLNh8Pz7VNsECyIWgZQ-TzyE1y-sSyFJVcSt1-M2PeWsa0nHOjwtobK0_eL5oXc_UBWoD4yCyJZeE8XAr_4ItfhZR97dbNepNsyKUDAafg5G_USUMvTbbvV3rAIhIArwZlsG2EoAFOg-1tnh5J2o9aC6nXKT1FDhqwLBcRVeGaOj-NSLDn0svti6zSaUQnIVtP1RQB7H7IHLwjRPahlaAcTQfGXeaGNxDZohxC94ctQim4au3geFqUll9P68Xv-2mJGkQiPRGRsELWwqopdE_M6vHAw9wAvqklWICPDfaDzYtmORHJJsM7vZmiHzmg-9CMMTByhSsu_jitezA3mZA_UPg_nj7_xQK12vmOqQgdbfRjD2xBpQ1g4o_9aB2ZavPqVF1vkjzpNQEyV3zd9vh60M5I5sLUyb4ovNPwRTDxWdQTUGmKCZ19ZRBKTQ8AJCc7hOmPI4sTGo8RnnX3ePN0gl9_rtsaiOAm1bQp44YQiYEMN3fFXU1I5E0z72zX1KmsVAPMJgi_KoKHpN4DmJwFz-PqSRrxRw4cWuXfedpsminfVbOaDeCJ1TqUIkZc0_6Q_gvRusatb8CrH_jkzATGG7P_gBwRBkD-idtqNhFnmtWn0u-dnIJYpjKqOMw0TJjXL7ChD-zLjH8bWU4R0b_9wkevgpptS_TjzywnbWtLNqYcx7IipaC6dLKVe7gMjb7hbw=w730-h972-s-no?authuser=0",
       time: "7:00pm May 4th 2024",
       maplink: "href",
       location: "Activities Center",
