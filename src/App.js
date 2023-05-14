@@ -88,7 +88,8 @@ function App() {
       state: togglebagelBrunch,
       rsvp: "href",
       rsvpState: togglebagelBrunchRSVP,
-      rsvptoggle: setTogglebagelBrunchRSVP
+      rsvptoggle: setTogglebagelBrunchRSVP,
+      rsvpForm: "https://docs.google.com/forms/d/e/1FAIpQLSdM4WdWhYdb4F7O4SYwAbOlAq2DSiuX9GehkcwGsKyfIMBwnQ/viewform?embedded=true"
     }
   ];
 
@@ -116,7 +117,7 @@ function App() {
             return <li key={index}>{event.name}&nbsp; 
                 <a onClick={() => event.toggle(!event.state)} >Details</a>
                 { event.rsvp && <Spacer /> }
-                { event.rsvp && <a onClick={() => event.rsvpToggle(!event.rsvpState)} >RSVP</a> }
+                { event.rsvp && <a onClick={() => event.rsvptoggle(!event.rsvpState)} >RSVP</a> }
                 { event.state && <EventDetails event={event} />}
                 { event.rsvpState && <EventForm event={event} />}
               </li>})}
