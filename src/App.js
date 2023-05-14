@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import EventDetails from './subpage/EventDetails';
+import EventForm from './subpage/EventForm';
 import Spacer from './subpage/spacer';
 import './App.css';
 
@@ -47,8 +48,7 @@ function App() {
       rsvp: "href",
       rsvpState: toggleceremonyRSVP,
       rsvptoggle: setToggleceremonyRSVP,
-      rsvpForm: <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdhbk3GYbtFOooTTrS4u9GypjCTUc5jcDNQavfM-6Yt6x07Zg/viewform?embedded=true" width="640" height="743" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
+      rsvpForm: "https://docs.google.com/forms/d/e/1FAIpQLSdhbk3GYbtFOooTTrS4u9GypjCTUc5jcDNQavfM-6Yt6x07Zg/viewform?embedded=true"
     },
     {
       name: "Reception",
