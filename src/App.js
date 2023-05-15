@@ -102,10 +102,10 @@ function App() {
 
   let places = [{
     name:"State Park Cabins",
-    sleeps:6,
+    sleeps:"2-6",
     costs:"",
     picture:"https://wrp-graphics-public-old.s3.amazonaws.com/file-hotels-2642-hotel_thumbnail_url.jpg",
-    description:"",
+    description:"The Cabins are ...",
     booklink:"https://secure.webrez.com//Bookings105/activity-edit.html?table=hotels&listing_id=2642&mode=command&command=website_availabilitycalendar&hotel_id=2642&language=&&date_from=20240503",
     toggle: setToggleCabinInfo,
     state: toggleCabinInfo,
