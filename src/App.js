@@ -75,7 +75,7 @@ function App() {
     {
       name: "Lantern Parade / After Party",
       id: "lanternParade",
-      picture: "https://lh3.googleusercontent.com/UyThTl2Jn63yAQa_xy9MiPlAzTKjr_mAm_ALv1C6b4hhOHADDeYx0AihHKDwbTZAKjETvT5c2GNGZ4nEBhQmEU9BtSc3BF49NZOSRXCofdQG7ffSoUZgKlzRmF9MfCIUGC03yebYYZZXQB9AyxYqV_o5XMXvSd0yOjl1P5X__5uZo1iYXY9awpLnoWwp1hcn_x0HfUPWrOiqDlDD0lA8B8EHlJO2lddBj0Pts7XT3hSqqNbTTrEWvBNaWCQeoX5ZXjwUuPeb-IalGvut02TCobgo2lQzMQloatgGVbPp6U_HOf4ZmD5XYNOqGRD2IJetMB6Z4JP8eyyXPp_HCs4LFzx_9nqO0o_IqosRba7n4g9kfGklsR6i3Fz86kXOOdZ8L3q6AHpxH57CTYxls0bsgtG29Rh6scosaoRITr6AQuWIzc7QtozdDAba_ei8uGDPjFHPszCZ4sB6EUCkn5AU6aT05-hWN8k2nc12xQ18PnAYMVeYh-abM1pdnKOjp3BsrZ_UF-PVbRJ1vGP5vPtsREoamvNI4y2jWs-SaM-N1LTtywWPW7r_3eaMkYk164oWIfR_Ui9ZnsAmOHnNfRSuApEP7_Tq_xxnYFwVnjdX-WfPIsjdNB7Nykt-ubc8Pa-ONx1psbBDmEMPnWnG8h8vXecAa19xRi3yv34QVVS0B35q88R2bXYlvGUbzUI3KYpKw0LMK-vytlNNTm-BsJaRKDA1GPuhrL2FgKjwLDCR825HaVxWKddSMUcEcz7qxBz3ELwspTaBtZ9QwdWDgtzAOi-ffVDU1PLK_L7UNUbPZGzafvUEshVB-yMHwt6x3KHdpcqwHcbsR_Xn6Fw9XG4LcUeX4ealJCkWQ-S3R8aRactKB4Be_Pp04f_Gl9gzOJPXpSjMt7_bFrKlDKDG9EOPQtw8sjSszVAEH8XMQ2CI_hGakL1uGA=w360-h480-s-no?authuser=0",
+      picture: "images/parade.jpeg",
       time: "11:00pm May 4th 2024",
       maplink: "href",
       location: "State Park Cabins",
@@ -86,7 +86,7 @@ function App() {
     {
       name: "Bagel Brunch",
       id: "bagelBrunch",
-      picture:"/path",
+      picture:"images/bagels.jpeg",
       time: "10:00am May 5th 2024",
       maplink: "href",
       location: "State Park Cabins",
@@ -104,9 +104,9 @@ function App() {
     name:"State Park Cabins",
     sleeps:6,
     costs:"",
-    picture:"",
+    picture:"https://wrp-graphics-public-old.s3.amazonaws.com/file-hotels-2642-hotel_thumbnail_url.jpg",
     description:"",
-    booklink:"",
+    booklink:"https://secure.webrez.com//Bookings105/activity-edit.html?table=hotels&listing_id=2642&mode=command&command=website_availabilitycalendar&hotel_id=2642&language=&&date_from=20240503",
     toggle: setToggleCabinInfo,
     state: toggleCabinInfo,
   },{
@@ -115,7 +115,7 @@ function App() {
     costs:"",
     picture:"",
     description:"",
-    booklink:"",
+    booklink:"https://www.guestreservations.com/the-lodge-at-gulf-state-park-a-hilton-hotel/booking?checkIn=05%2F04%2F2024&checkOut=05%2F05%2F2024&rooms=1&adults%5B1%5D=2&children%5B1%5D=0&currency=USD",
     toggle: setToggleHotelInfo,
     state: toggleHotelInfo,
   },{
@@ -124,7 +124,7 @@ function App() {
     costs:"",
     picture:"",
     description:"",
-    booklink:"",
+    booklink:"https://www.reservealapark.com/AlabamaWebHome/Facilities/SearchViewUnitAvailabity.aspx",
     toggle: setTogglePrimInfo,
     state: togglePrimInfo,
   },{
@@ -133,7 +133,7 @@ function App() {
     costs:"",
     picture:"",
     description:"",
-    booklink:"",
+    booklink:"https://www.reservealapark.com/AlabamaWebHome/Facilities/SearchViewUnitAvailabity.aspx",
     toggle: setToggleRVInfo,
     state: toggleRVInfo,
   },{
@@ -142,7 +142,7 @@ function App() {
     costs:"",
     picture:"",
     description:"",
-    booklink:"",
+    booklink:"https://www.airbnb.com/s/Gulf-State-Park--Gulf-Shores--Alabama--United-States/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2023-06-01&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=2&channel=EXPLORE&query=Gulf%20State%20Park%2C%20Gulf%20Shores%2C%20AL&date_picker_type=calendar&checkin=2024-05-03&checkout=2024-05-05&source=structured_search_input_header&search_type=autocomplete_click&place_id=ChIJAf8qlDAEmogROxDShN5jCUY",
     toggle: setToggleBnBInfo,
     state: toggleBnBInfo,
   }
