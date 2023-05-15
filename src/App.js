@@ -60,7 +60,7 @@ function App() {
     {
       name: "Reception",
       id: "reception",
-      picture: "https://lh3.googleusercontent.com/zFP6Za3y6Q4wJ827pyzo0JJxbKh2w0C8gbAyi0CDu2LfRhbGBJt48WQHSmbBDs6YBg8I9hjBlGJ6TIrFtWI5XYFDF-GcqJbiilFTg2iMXT6C2o6Qrz9i8BIP8fzo_AlQE5cSb-0VAgK2E-ucFK76wCUyPhOUG96U1crZpf-InZhDx1AIP27r0pkk430SQE2QswhVnABWb8o_YCvbTlnRuH-pxvajeasMMC4E2l2DaOymzHuSbCXl2dwRIfxcpf8I8XMlWUuRDDoLeoNTj36KYd9on-JpAfNyXuUPGlhfdhcBmV8PspjLoehMMnIfNkwwKnL8nQCdc4opYEnFKeqVBI7BX1A3jX99SHuKliXDIe74rTGBxbPcbmH0Cj8HCNaXg_SiIu-dviyMvfwpoYA6m6z9f100-mlow52KE5jr963LzitoI9laQ0Hd1Ms4lOd21IomvPi0NbIBFyi2vy1X_OQpH_o64jnswxiCH3iy9UUM9KMYGv3Jz6DzXhENOvae7dANkjWoUGycgGNjmMpFxiFUdBVzfxnszBKl0n9riupuMTYFL4iaWs_6QhUQJwePsd_iquww8_13UVFq8asnhv5sXuE-xII3q7xMtiG_Nk7KieYAohTm9X8QQIpvXVmKQEWrUchTa3jigDgbpVrxqDPlhk2afigPMtb6QCApqj_fJaprUgb6PgaXPwMFNVqo6l1fPI3Qx5t1X9touiZCHvOEhOFQl8LIGkUeM0mD3WOH1d2W2a2wc2XNgVjfSAgP7WfFP3mq108nCil1YqSZ3L0WJao6dtlk0bilBwRkqvdu7-Wanrj14YqciIgT1ivtDdqlH2McDMmkHqauxph2zmJRteHobbNlBVOrN_FWW0ozA4BANvhHexbzJqoQJUiemRP0-5SH-yVgUZ6HCNDBQfE57NOeBwMt5XlQVJLRtbbqaMaPuA=w730-h972-s-no?authuser=0",
+      picture: "https://lh3.googleusercontent.com/LiqxUkajY5SUhP0K2APwhZhXj3L1j6BI7-iDfEmNQHsi2hG0bb97KOUbhRTHiJXsKSLcg9yTZsa1Zf7yujfOhXYb6rq_DhgyaAsXKx5QuGA-cwpUKl1gM13n0aOM3BKGOiaxE4Hebcp7L-bRTa751dfHS-NpL0pbOHQFcmriKRLlv89GA-I9T_HrY7L5WDQg33x_Yh2GCAWECalciF-d-N6-snMZEIFoxHxouqLS1PsfMn_wtPjgrMHimjdahdMhSguUSNXGmaSYT3EpgU67jdhCtRcLjQUhkOJanEfvFOKuXMHUw7wXInK3Mbr4axN8og-RefaAZA8J-u8iQexSsVLHJB--S1oEVkhntgBpQ-w7NR-q4_Cmuj1fgmDJGb53pMGopay-mY-Hr1PCDZ7ac-zPwPKQfA09w2mSdbJt-qmDDak-hYYEftCbN6fraUBV-cHdwIImbOdTwGUSbNGeeU4FGs-pJHE1GO3mz59JAFULKhITYII3BqUprh1idovlTfXtLGF-qMjBwqhDYd9Dj7jMEeygS8PiaS0e2TtZarm9tCYukdsEsOWUbilT6lZAUd00vvjWEN82dlizEAkkgEDnNYF62l3yUgLnkCPggiMHYB3GsgBHhwxA70NA-8Drul_7v9Nu5xTDGhZSeIqY9kLOJ4XIn0H6XVOwcT3jrw0CEok5YZ9wNEqlhAQwGYBqNoWxZ8XsOqf_AWuMj9N1W8MT8InRFaQemi4pkgBoJaRPK2ONgVIwckgeY1wIQCBa_tXIwKfEMFw4hqOemaRMmBv0O6Y4h4cOi8XAsuDei3lcndpxaKlWxNWPg21r1zdvKdt7L2TGGbBnEzic_Y93wmn8NFy3QQeJC_I4QRZwrKLv23E-_voOGjteJiKa9ws1qeobLPLu14yu8zbnEC0hZ4XnzNCL8rYmy1CSVuTYBlQYIyKrKA=w730-h972-s-no?authuser=0",
       time: "7:00pm May 4th 2024",
       maplink: "href",
       location: "Activities Center",
@@ -75,7 +75,7 @@ function App() {
     {
       name: "Lantern Parade / After Party",
       id: "lanternParade",
-      picture: "images/parade.jpeg",
+      picture: "https://raw.githubusercontent.com/Human-Coop/create-react-app/main/src/images/parade.jpeg?token=GHSAT0AAAAAACCSPV3JWY54WKS5LXTRXFQKZDCMDZQ",
       time: "11:00pm May 4th 2024",
       maplink: "href",
       location: "State Park Cabins",
@@ -86,7 +86,7 @@ function App() {
     {
       name: "Bagel Brunch",
       id: "bagelBrunch",
-      picture:"images/bagels.jpeg",
+      picture:"https://raw.githubusercontent.com/Human-Coop/create-react-app/main/src/images/bagels.jpeg?token=GHSAT0AAAAAACCSPV3JWHAC3UNI3XZXVYPIZDCMC7A",
       time: "10:00am May 5th 2024",
       maplink: "href",
       location: "State Park Cabins",
