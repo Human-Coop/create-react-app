@@ -86,7 +86,7 @@ function App() {
     {
       name: "Bagel Brunch",
       id: "bagelBrunch",
-      picture:"https://raw.githubusercontent.com/Human-Coop/create-react-app/main/src/images/bagels.jpeg?token=GHSAT0AAAAAACCSPV3JWHAC3UNI3XZXVYPIZDCMC7A",
+      picture: "static/js/images/bagels.jpeg",
       time: "10:00am May 5th 2024",
       maplink: "href",
       location: "State Park Cabins",
