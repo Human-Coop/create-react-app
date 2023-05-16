@@ -116,7 +116,8 @@ function App() {
       description:"The reception location is in the campground. \n"+
       "The primitive sites have some trees and shade. We highly recommend going with primitive \n"+
       "if you are comfortable with foregoing electric. Talk to us about borrowing camping gear if you're \n"+
-      "coming from out if town and would like to camp.",
+      "coming from out if town and would like to camp. These will book quickly, we advise making reservations "+
+      "ASAP if you plan to camp. Make sure to search 'Gulf State Park' in the book link and then look for Primitive Camping",
       booklink:"https://www.reservealapark.com/AlabamaWebHome/Facilities/SearchViewUnitAvailabity.aspx",
       toggle: setTogglePrimInfo,
       state: togglePrimInfo,
