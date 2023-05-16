@@ -45,15 +45,16 @@ function App() {
     {
       name: "Wedding Ceremony",
       id: "ceremony",
-      picture:"https://lh3.googleusercontent.com/fife/APg5EObEAzNbH-WgBy_tn2sGahll62LrutIzSQ1JnExGcGEccH4KoaT7MTF7rOPOENPSXTi7Pjf-PBKpKhJnqVvNxeDTkM9mxr_a1dMtjF43l-tkskpbQ2UxZTAyk2a771B7hWKf-k2LeDvdU7gQhU3qdZPF3eTW5_CGRt0zYeHkFYeR_TMJod-64IAXM6XIXEsjpBLeVqBXQ8aQIQoDM2s_RjXXsiaClOq6hVIsPq_c_h8590BmGR1R1hy0S3TYrS25CGX8lf8TX-FYkV0r1FmEVoK4xcKPg2WrJyjVAzNU2XHtIK8Rif71Xk720v-nJ71PiA6Orfqp2kc7mFG9280xDKEdcUkOLcBldO9nQccE6AO63qgTe7Z-83tuO0UWuASvOB8wVi8vPi49DFWQcLuyEzrIkHox_XizNVJ6EgbKM5xDBLuF6OiSkVAJt1inI6qiqGGovzxrZfzUVyJYHqOYQlFQUiGFoJdopxC7ImT98Q9CpOGlKSry0cqV2cVeUI2SYeUlMYM66coozMmDnqnGelGJkK7MfDlw0ahsa7XHe4YbcBSSSwMwnWDFn8GN-cnTwDO6sMjOcbLAtaYO18QAZEYW64PmA_6hgmNmJg4W9juGlp9KDTFaY0OUfzPi4SjL1K2HvsMNU-YLu9hzzYtNMCExcyUotW-OqyY01Tyy-0VJGUAJbzB13VZYIfAOS-IypKrB4UO4nsfUf5hNORotOFnH4Mj4MNfJ7ENjwIfq0mIA-mhxzndxuEG76e1OfOB3GPK5522Iy7B0_Ih0WYzImAti6sH5FEVxqyZ6dXCLgtRX5mDVn3baYmMNhVEyt4TBmVtrz3r58A9zOmXEpWyud16CbQcda-_8c9fkQMf78aE4oqxLs76w8KJ6fNsxgPlLfBSf8z4dIu7ycVjRFc5-jaa-KmlirdcEs_cZJ4lhe56cN2jN9-ChrimXLhAy-j6Nt7qzJ2K18Rd3b_vfH5Okj_W3tm7HCxCT1V4f5RigKnDkdx1ntSzLlJWijbxnnTpOlQWPrH0hhc1sE1YnvenTXQJkxmIxHDcdBCi2Gd7hzwzeipZfVnlsmDWYYdmMqZa-9YhmdN50X1sf3ijyvW2-rXKyaBpjEpUSSOwUVrr17avVDzbiVlZIUx72-spjEwtjkLLa2WzOxLlC3XnQp1nkK_6RjhuGIGoC-Ls0nWd3-4rrx_bDXQlnAWMYZHqJBi9WyaIdiCukHSHQcF3UQolz7nMx7FCywf6gFzGFd8zHITEnUprII6p7gNeCsRQOTPePB99wVomqKWNXer8M0R7yVIRr-08waNZYJOwhQokF8Knuk_FjsUjlCbKc5BX-zAifEBUP5IxTHWkzncadj-WHeEJgzWFlXGwR6Ihw-4P7nNgSipN5nclL_QFdyL0K1fk2fZ6uigJZuYIxsrL1jTtKnYA7lXQD2l9fH1QGQcvbcfCwdi6cAUTFLzuGdjysg7tZjW8LGn5kOAClm5QkpVGueoySeIL9sBfz1Deq2eI1Vr97ideAm1UQITztj3Njg7DSqTQ7t1I1mflh9a5ohS2kCJ0Tyd9W0-33FZGr3fPgtNQ5S_vNMGHGpTqb7uVRF5Y=w1280-h960-s-no?authuser=0",
+      picture: "https://lh3.googleusercontent.com/ERxA92oLks3BaLdRmCsbOFjbl6VnVePLFyfizFvOPoWpqj9XUmQI_-xl_0fduiNUa_gaB6iDfcyRyOzJ7mRek7p2_YVqVeqsFmdRMCunkNG0aOY8l2pNZiuG_nOjCmXXCHSdJNP3SQ7ajQtnZhhCQHrJ3LGSfLwR5QfLWuakeBHABsiUzV1AD7VF9JHjGxKXCZ6Pbnk_lBgWtVWr44UWWrGhkYPo-VBjJUruf6co86ZGhyr6Umi9cj2teuULV0IwqBdGa8zmvOkk_EHHzVHLYtTaoeAY3ztEo8zfRl8WVxb0O0FDqElrqNqODNGhEPVb50Ub3mLfrhLi_vHwetOiRWYcP2QmwAhNk5CL3Yn99Mc0hoHJRqMiJVb02ja1xzQ7skBgLUF0-PsSvYxZpF2v_B6EzDVWBLNQEiKTPz68F3msEbtZAginshU4Zha-CYQnE8ehVGHGPlkCFKNjWWFLUHP1hqhO3m35G5hvQd2FedrYxDSt2xzaOd2hR6GAvxp91KKyMjAyc44DVPBN7UxgZDQIrRp8mf292IDvH4oyyqQAyCuPu5aVKkNk-FyPwVuXGXfcyzvivezKt6SyTCLtICJcwgqymyUrInMTfdkseTyXlwq4fM-Xl7oesPl0geV2KVKJPtUglCUmGnkKn8aEWm1XJ6hGY4uWfGkE2rXBnfmSIVifa19i223IChPv41mEEKwt4xq3mPxUTRXal6_CjzwNoB2MFV_S5LUQfElbtG4-v9h4pMTCvJbqgLuyWioJItXXiMTyyuwvi9O_qoNJ-TpRur2H5wVG0F3geu2y5M6uLosbRCvmjRuntOvCwSU6tIVq0lA0gIrp1-oczqUAJG5J0EBJTP2rQedx0t94T43K61jpPLSy06iemKTa98l9l_XNUZvKYsD0Z7ofFhJpPIDV1u4hKwDNXUCLzB74ytX40n1ymTNPXwOATLMJJbzP5BiKInHe-ndM-QivMH3j4Tce9zWZUdSSxvjX_MRKaUE=w958-h719-no?authuser=0",
       time: "6:00pm May 4th 2024",
       maplink: "href",
       location: "Beach Pavillion Access",
-      description: "Join us for a short beachside ceremony. Parking passes will be provided. \n"+
-      "If you are travelling to Gulf Shores by car, we ask you to consider bringing your own beach chair or blanket. \n" +
-      "We are happy to provide seating for anyone who cannot bring their own. Attire: We trust you to wear whatever \n"+
+      description: "Attire: We trust you to wear whatever \n"+
       "combination of festive and comfortable that makes you feel your best. Fancy shorts, short sleeves, \n"+
-      "sport sandals/flip flops, and sunhats are practical choices for all genders!",
+      "sport sandals/flip flops, and sunhats are practical choices for all genders!"+
+      "Join us for a short beachside ceremony. Parking passes will be provided. \n"+
+      "If you are travelling to Gulf Shores by car, we ask you to consider bringing your own beach chair or blanket. \n" +
+      "We are happy to provide seating for anyone who cannot bring their own. \n",
       toggle: setToggleceremony,
       state: toggleceremony,
       rsvp: "href",
