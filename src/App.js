@@ -152,7 +152,7 @@ function App() {
       sleeps:"4",
       costs:"Prices and reservations will be available when cabins are completed in November 2023. Prices will be between the Eagle Cottages and Woodside Cabins.",
       picture: "https://thecabinsatgsp.com/wp-content/uploads/2023/03/Renovated-Lakeside-Cabins-Rendering-B-Final-2-700x700.jpg",
-      description:"the Eagle Cottages.",
+      description:"The lakeside cabins are next to the eagle cottages on Lake Shelby.",
       booklink:"https://secure.webrez.com//Bookings105/activity-edit.html?table=hotels&listing_id=2642&mode=command&command=website_availabilitycalendar&hotel_id=2642&language=&&date_from=20240503",
       toggle: setToggleLakeCabinInfo,
       state: toggleLakeCabinInfo,
