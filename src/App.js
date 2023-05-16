@@ -54,7 +54,7 @@ function App() {
       "We are happy to provide seating for anyone who cannot bring their own. Attire: We trust you to wear whatever \n"+
       "combination of festive and comfortable that makes you feel your best. Fancy shorts, short sleeves, \n"+
       "sport sandals/flip flops, and sunhats are practical choices for all genders!",
-      toggle: setTogreenggleceremony,
+      toggle: setToggleceremony,
       state: toggleceremony,
       rsvp: "href",
       rsvpState: toggleceremonyRSVP,
