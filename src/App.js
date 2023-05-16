@@ -53,7 +53,7 @@ function App() {
       location: "Beach Pavillion Access",
       description: "Attire: We trust you to wear whatever \n"+
       "combination of festive and comfortable that makes you feel your best. Fancy shorts, short sleeves, \n"+
-      "sport sandals/flip flops, and sunhats are practical choices for all genders!"+
+      "sport sandals/flip flops, and sunhats are practical choices for all genders! \n"+
       "Join us for a short beachside ceremony. Parking passes will be provided. \n"+
       "If you are travelling to Gulf Shores by car, we ask you to consider bringing your own beach chair or blanket. \n" +
       "We are happy to provide seating for anyone who cannot bring their own. \n",
@@ -113,7 +113,10 @@ function App() {
       sleeps:8,
       costs:"$20/night, $5 reservation fee, 2 night minimum",
       picture:"https://www.alapark.com/sites/default/files/styles/default/public/2022-04/Gulf%20State%20Park%20Campground%20Back%20In%20Campsites.jpg?itok=0IYma8xD",
-      description:"The reception location is in the campground. The primitive sites have some trees and shade. We highly recommend going with primitive if you are comfortable with foregoing electric.",
+      description:"The reception location is in the campground. \n"+
+      "The primitive sites have some trees and shade. We highly recommend going with primitive \n"+
+      "if you are comfortable with foregoing electric. Talk to us about borrowing camping gear if you're \n"+
+      "coming from out if town and would like to camp.",
       booklink:"https://www.reservealapark.com/AlabamaWebHome/Facilities/SearchViewUnitAvailabity.aspx",
       toggle: setTogglePrimInfo,
       state: togglePrimInfo,
