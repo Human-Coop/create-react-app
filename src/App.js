@@ -24,6 +24,8 @@ function App() {
   const [togglePrimInfo, setTogglePrimInfo] = useState(false);
   const [toggleRVInfo, setToggleRVInfo] = useState(false);
   const [toggleBnBInfo, setToggleBnBInfo] = useState(false);
+  const [toggleLakeCabinInfo, setToggleLakeCabinInfo] = useState(false);
+  const [toggleEagleCabinInfo, setToggleEagleCabinInfo] = useState(false);
 
   let events = [
     {
@@ -108,7 +110,7 @@ function App() {
   let places = [
     {
       name:"Stake Park Primitive camping",
-      sleeps:6,
+      sleeps:8,
       costs:"$20/night, $5 reservation fee, 2 night minimum",
       picture:"https://www.alapark.com/sites/default/files/styles/default/public/2022-04/Gulf%20State%20Park%20Campground%20Back%20In%20Campsites.jpg?itok=0IYma8xD",
       description:"The reception location is in the campground. The primitive sites have some trees and shade. We highly recommend going with primitive if you are comfortable with foregoing electric.",
@@ -117,8 +119,8 @@ function App() {
       state: togglePrimInfo,
     },{
       name:"Stake Park RV camping",
-      sleeps:6,
-      costs:"",
+      sleeps:8,
+      costs:"$43/night, $5 reservation fee, 2 night minimum",
       picture:"https://www.alapark.com/sites/default/files/styles/default/public/2019-04/dsp_improved_header_2019_0.jpg?itok=k22n7fa_",
       description:"The reception location is in the campground. The campground has a pool, tennis court, and lots of bathrooms! There is not as much shade as we like in the RV spots. We think section 83-103 is the nicest. We will update with specific site recommendations by 5/30.",
       booklink:"https://www.reservealapark.com/AlabamaWebHome/Facilities/SearchViewUnitAvailabity.aspx",
@@ -139,7 +141,7 @@ function App() {
       name:"Woodside Cabins at Gulf State Park",
       sleeps:"4 cabins with differnt cofigurations sleeping 4-6",
       costs:"$265 - $325/night, senior and military discounts available",
-      picture:"https://wrp-graphics-public-old.s3.amazonaws.com/file-hotels-2642-hotel_thumbnail_url.jpg",
+      picture:"https://thecabinsatgsp.com/wp-content/uploads/2023/03/20220411_152022.jpg",
       description:"Cute cabions located a very short walk from the Eagle Cottages.",
       booklink:"https://secure.webrez.com//Bookings105/activity-edit.html?table=hotels&listing_id=2642&mode=command&command=website_availabilitycalendar&hotel_id=2642&language=&&date_from=20240503",
       toggle: setToggleCabinInfo,
@@ -149,11 +151,11 @@ function App() {
       name:"Lakeside Cabins at Gulf State Park",
       sleeps:"4",
       costs:"Prices and reservations will be available when cabins are completed in November 2023. Prices will be between the Eagle Cottages and Woodside Cabins.",
-      picture:"https://wrp-graphics-public-old.s3.amazonaws.com/file-hotels-2642-hotel_thumbnail_url.jpg",
+      picture: "https://thecabinsatgsp.com/wp-content/uploads/2023/03/Renovated-Lakeside-Cabins-Rendering-B-Final-2-700x700.jpg",
       description:"the Eagle Cottages.",
       booklink:"https://secure.webrez.com//Bookings105/activity-edit.html?table=hotels&listing_id=2642&mode=command&command=website_availabilitycalendar&hotel_id=2642&language=&&date_from=20240503",
-      toggle: setToggleCabinInfo,
-      state: toggleCabinInfo,
+      toggle: setToggleLakeCabinInfo,
+      state: toggleLakeCabinInfo,
     },
     {
     name:"Eagle Cottages at Gulf State Park",
@@ -162,8 +164,8 @@ function App() {
     picture:"https://wrp-graphics-public-old.s3.amazonaws.com/file-hotels-2642-hotel_thumbnail_url.jpg",
     description:"The crawfish boil and afterparty will take place at the cabins. Waterfront cabins with 6 bike rentals, firewood, restaurant breakfast, and other amenities.",
     booklink:"https://secure.webrez.com//Bookings105/activity-edit.html?table=hotels&listing_id=2642&mode=command&command=website_availabilitycalendar&hotel_id=2642&language=&&date_from=20240503",
-    toggle: setToggleCabinInfo,
-    state: toggleCabinInfo,
+    toggle: setToggleEagleCabinInfo,
+    state: toggleEagleCabinInfo,
   },
   {
     name:"Nearby hotels and airbnbs",
