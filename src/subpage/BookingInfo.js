@@ -6,6 +6,10 @@ function BookingInfo({ place }) {
   return (
     <div class="eventDetails">
         <img width="300" height="200" src={place.picture} />
+        <h4>Sleeps&nbsp;:&nbsp;</h4><p>{place.sleeps}</p>
+        <br></br>
+        <h4>Cost&nbsp;:&nbsp;</h4><p>{place.costs}</p>
+        <br></br>
         <div class="eventDescription">{place.description}</div>
     </div>
   )

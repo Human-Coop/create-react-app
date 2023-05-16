@@ -142,7 +142,7 @@ function App() {
       sleeps:"4 cabins with differnt cofigurations sleeping 4-6",
       costs:"$265 - $325/night, senior and military discounts available",
       picture:"https://thecabinsatgsp.com/wp-content/uploads/2023/03/20220411_152022.jpg",
-      description:"Cute cabions located a very short walk from the Eagle Cottages.",
+      description:"Cute cabins located a very short walk from the Eagle Cottages.",
       booklink:"https://secure.webrez.com//Bookings105/activity-edit.html?table=hotels&listing_id=2642&mode=command&command=website_availabilitycalendar&hotel_id=2642&language=&&date_from=20240503",
       toggle: setToggleCabinInfo,
       state: toggleCabinInfo,
