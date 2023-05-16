@@ -7,7 +7,7 @@ import (
 )
 
 func Handler(w http.ResponseWriter, r *http.Request) {
-	weddingTime := time.Date(2024, time.May, 04, 01, 00, 00, 00, time.Local)
+	weddingTime := time.Date(2024, time.May, 04, 11, 00, 00, 00, time.Local)
 	now := time.Now()
 	diffTime := weddingTime.Sub(now)
 	totalHours := int64(diffTime.Hours())
