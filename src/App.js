@@ -215,6 +215,7 @@ function App() {
   return (
     <main>
       <h1>Alex &#38; Regina</h1>
+      <h2>May 4th, 2024</h2>
       <h3>
         Wedding Events
       </h3>
