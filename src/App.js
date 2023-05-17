@@ -31,7 +31,7 @@ function App() {
     {
       name: "Crawfish Boil",
       id: "crawfishBoil",
-      picture:"https://lh3.googleusercontent.com/pw/AJFCJaWQoouUU75Qv3awjdt-zjd4lJxDMiT5tUYDF2xzN70bufH2b4pLyASc3Ps_E5AsRkyNo6CLhnHyV6VvKyiagTy3tBKTwhV7-daw7LjVmQi7QnxS0ggWCIBL5bYPVhVHwZG-6oPWoqDF63OHZSiHsuIZ=w177-h237-s-no?authuser=0",
+      picture:"https://lh3.googleusercontent.com/pw/AJFCJaVRfL1-aY4cUF9gcO0rX-AUmN-b_L-TMADTW0j5dUkrHtTfdN7nvV6MztD72T28rR_2EIoeD1cJnLoHT40DHeXa9LzSO8N5hPfL_wKcM41GOCPvwog4D4oogqK2-L7yxZBo8S6zh8FqGBlAhkvDcUkN=w300-h200-s-no?authuser=0",
       time: "6:00pm May 3rd 2024",
       maplink: "https://www.google.com/maps/dir//Eagle+Cottages+at+Gulf+State+Park,+1+Bald+Eagle+Lane,+Gulf+Shores,+AL+36542/@30.2663425,-87.6659432,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x889a058b1438f8dd:0x51a40a2c356d042a!2m2!1d-87.6659432!2d30.2663425!3e0",
       location: "Eagle Cottages",
