@@ -216,7 +216,6 @@ function App() {
     <main>
       <h1>Alex &#38; Regina</h1>
       <h2>May 4th, 2024</h2>
-      <h3>General Information</h3>
       <h4>
         You're invited to a low key celebration of our love at the beach in Gulf Shores.
         You can expect some relaxing beach time with some buffet style food and booze at our events.
