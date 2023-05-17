@@ -217,13 +217,13 @@ function App() {
       <h1>Alex &#38; Regina</h1>
       <h2>May 4th, 2024</h2>
       <h3>General Information</h3>
-      <h5>
+      <h4>
         You're invited to a low key celebration of our love at the beach in Gulf Shores.
         You can expect some relaxing beach time with some buffet style food and booze at our events.
         If you can't make it to our celebration, or it is too logistically inconvenient for you, 
         please rsvp no to the reception and make plans to celebrate with us at another place and time.
         We'll post more information here as we get closer to our event.
-      </h5>
+      </h4>
       <h3>
         Wedding Events
       </h3>
