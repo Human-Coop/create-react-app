@@ -109,7 +109,7 @@ function App() {
 
   let places = [
     {
-      name:"Stake Park Primitive camping",
+      name:"State Park Primitive camping",
       sleeps:8,
       costs:"$20/night, $5 reservation fee, 2 night minimum",
       picture:"https://www.alapark.com/sites/default/files/styles/default/public/2022-04/Gulf%20State%20Park%20Campground%20Back%20In%20Campsites.jpg?itok=0IYma8xD",
@@ -122,7 +122,7 @@ function App() {
       toggle: setTogglePrimInfo,
       state: togglePrimInfo,
     },{
-      name:"Stake Park RV camping",
+      name:"State Park RV camping",
       sleeps:8,
       costs:"$43/night, $5 reservation fee, 2 night minimum",
       picture:"https://www.alapark.com/sites/default/files/styles/default/public/2019-04/dsp_improved_header_2019_0.jpg?itok=k22n7fa_",
