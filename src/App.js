@@ -11,6 +11,8 @@ function App() {
   const [ countdown, setCountdown] = useState(null);
   const [togglecrawfishBoil, setTogglecrawfishBoil] = useState(false);
   const [togglecrawfishBoilRSVP, setTogglecrawfishBoilRSVP] = useState(false);
+  const [toggledinner, setToggledinner] = useState(false);
+  const [toggledinnerRSVP, setToggledinnerRSVP] = useState(false);
   const [toggleceremony, setToggleceremony] = useState(false);
   const [toggleceremonyRSVP, setToggleceremonyRSVP] = useState(false);
   const [togglereception, setTogglereception] = useState(false);
@@ -45,11 +47,28 @@ function App() {
       rsvpForm: "https://docs.google.com/forms/d/e/1FAIpQLScuV7-xgnQ-ytCvIVNLC2rEnZhBU63JP8zCAIM7Xk-rqL5ELA/viewform?embedded=true"
     },
     {
+      name: "Picnic Dinner",
+      id: "dinner",
+      picture: "https://lh3.googleusercontent.com/pw/AJFCJaXpGzgisKIGrXipFGEsGxCU1OmccA8LtjMIfZcjkJviV5u6ZoV-3jA_YliNcok3_k_HKmJA2K1iDV6r2OgStjLLNnqI9Qda9MWKt8es1N6-avphppDyB2GjChJuEAYz8i-toGgD3QrdGWr4DU4fLrTy=w1348-h1798-s-no?authuser=0",
+      time: "5:00pm May 4th 2024",
+      maplink: "https://www.google.com/maps/place/Beach+Pavilion,+Gulf+Shores,+AL+36542/@30.2547154,-87.6458773,17z/data=!3m1!4b1!4m20!1m13!4m12!1m4!2m2!1d-90.0653353!2d29.9855988!4e1!1m6!1m2!1s0x889a04421f14e28d:0x3ef4a41149165c79!2sBeach+Pavilion,+Gulf+Shores,+AL+36542!2m2!1d-87.6433024!2d30.2547108!3m5!1s0x889a04421f14e28d:0x3ef4a41149165c79!8m2!3d30.2547108!4d-87.6433024!16s%2Fg%2F11c0rvzkhv?entry=ttu",
+      location: "Beach Pavillion Access",
+      description: "We will be serving dinner at the beach pavillion \n"+
+      "before our ceremony. Due to state park regulations, non-alcoholic drinks will be served. \n"+
+      "Don't worry we'll celebrate with drinks at the reception, we just wanted everyone to enjoy the view with dinner! \n",
+      toggle: setToggledinner,
+      state: toggledinner,
+      rsvp: "href",
+      rsvpState: toggledinnerRSVP,
+      rsvptoggle: setToggledinnerRSVP,
+      rsvpForm: "https://docs.google.com/forms/d/e/1FAIpQLScrGSfyP9-hyHvS9F2lT77PBhZ5PpPLY9iywJ1TR2S8-ErYog/viewform?embedded=true"
+    },
+    {
       name: "Wedding Ceremony",
       id: "ceremony",
       picture: "https://lh3.googleusercontent.com/ERxA92oLks3BaLdRmCsbOFjbl6VnVePLFyfizFvOPoWpqj9XUmQI_-xl_0fduiNUa_gaB6iDfcyRyOzJ7mRek7p2_YVqVeqsFmdRMCunkNG0aOY8l2pNZiuG_nOjCmXXCHSdJNP3SQ7ajQtnZhhCQHrJ3LGSfLwR5QfLWuakeBHABsiUzV1AD7VF9JHjGxKXCZ6Pbnk_lBgWtVWr44UWWrGhkYPo-VBjJUruf6co86ZGhyr6Umi9cj2teuULV0IwqBdGa8zmvOkk_EHHzVHLYtTaoeAY3ztEo8zfRl8WVxb0O0FDqElrqNqODNGhEPVb50Ub3mLfrhLi_vHwetOiRWYcP2QmwAhNk5CL3Yn99Mc0hoHJRqMiJVb02ja1xzQ7skBgLUF0-PsSvYxZpF2v_B6EzDVWBLNQEiKTPz68F3msEbtZAginshU4Zha-CYQnE8ehVGHGPlkCFKNjWWFLUHP1hqhO3m35G5hvQd2FedrYxDSt2xzaOd2hR6GAvxp91KKyMjAyc44DVPBN7UxgZDQIrRp8mf292IDvH4oyyqQAyCuPu5aVKkNk-FyPwVuXGXfcyzvivezKt6SyTCLtICJcwgqymyUrInMTfdkseTyXlwq4fM-Xl7oesPl0geV2KVKJPtUglCUmGnkKn8aEWm1XJ6hGY4uWfGkE2rXBnfmSIVifa19i223IChPv41mEEKwt4xq3mPxUTRXal6_CjzwNoB2MFV_S5LUQfElbtG4-v9h4pMTCvJbqgLuyWioJItXXiMTyyuwvi9O_qoNJ-TpRur2H5wVG0F3geu2y5M6uLosbRCvmjRuntOvCwSU6tIVq0lA0gIrp1-oczqUAJG5J0EBJTP2rQedx0t94T43K61jpPLSy06iemKTa98l9l_XNUZvKYsD0Z7ofFhJpPIDV1u4hKwDNXUCLzB74ytX40n1ymTNPXwOATLMJJbzP5BiKInHe-ndM-QivMH3j4Tce9zWZUdSSxvjX_MRKaUE=w958-h719-no?authuser=0",
       time: "6:00pm May 4th 2024",
-      maplink: "href",
+      maplink: "https://www.google.com/maps/place/Beach+Pavilion,+Gulf+Shores,+AL+36542/@30.2547154,-87.6458773,17z/data=!3m1!4b1!4m20!1m13!4m12!1m4!2m2!1d-90.0653353!2d29.9855988!4e1!1m6!1m2!1s0x889a04421f14e28d:0x3ef4a41149165c79!2sBeach+Pavilion,+Gulf+Shores,+AL+36542!2m2!1d-87.6433024!2d30.2547108!3m5!1s0x889a04421f14e28d:0x3ef4a41149165c79!8m2!3d30.2547108!4d-87.6433024!16s%2Fg%2F11c0rvzkhv?entry=ttu",
       location: "Beach Pavillion Access",
       description: "Attire: We trust you to wear whatever \n"+
       "combination of festive and comfortable that makes you feel your best. Fancy shorts, short sleeves, \n"+
@@ -71,7 +90,7 @@ function App() {
       time: "7:00 - 10:00 pm May 4th 2024",
       maplink: "href",
       location: "Activities Center",
-      description: "The reception is a 20 minute walk or 10 minute bike ride on protected trails. It is 5 minutes by car.",
+      description: "We'll celebrate with snacks, desserts and drinks! The reception is a 20 minute walk or 10 minute bike ride on protected trails. It is 5 minutes by car.",
       toggle: setTogglereception,
       state: togglereception,
       rsvp: "href",
