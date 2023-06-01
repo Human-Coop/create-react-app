@@ -145,7 +145,7 @@ function App() {
       sleeps:8,
       costs:"$43/night, $5 reservation fee, 2 night minimum",
       picture:"https://www.alapark.com/sites/default/files/styles/default/public/2019-04/dsp_improved_header_2019_0.jpg?itok=k22n7fa_",
-      description:"The reception location is in the campground. The campground has a pool, tennis court, and lots of bathrooms! There is not as much shade as we like in the RV spots. We think section 83-103 is the nicest. We will update with specific site recommendations by 5/30.",
+      description:"The reception location is in the campground. The campground has a pool, tennis court, and lots of bathrooms! There is not as much shade as we like in the RV spots. We think section 4-8 is the nicest, but please reach out for more reccomendations if those are booked. We will update with specific site recommendations by 5/30.",
       booklink:"https://www.reservealapark.com/AlabamaWebHome/Facilities/SearchViewUnitAvailabity.aspx",
       toggle: setToggleRVInfo,
       state: toggleRVInfo,
