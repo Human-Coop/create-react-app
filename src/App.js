@@ -236,8 +236,9 @@ function App() {
       <h1>Alex &#38; Regina</h1>
       <h2>May 4th, 2024</h2>
       <h4>
-        You're invited to a low key celebration of our love at the beach in Gulf Shores.
-        You can expect some relaxing beach time with some buffet style food and booze at our events.
+        You're invited to a low key celebration of our love at the beach at Gulf Shores State Park.
+        You can expect some relaxing beach time, buffet style food at our pre-ceremony dinner, and booze at our reception.
+        The state park has an excellent network of mixed use trails and a free bike share. There are also bike rentals available.
         If you can't make it to our celebration, please RSVP no to the reception and make plans 
         to celebrate with us another time. We'll post more information here as we get closer to our event.
       </h4>
