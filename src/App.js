@@ -236,11 +236,11 @@ function App() {
       <h1>Alex &#38; Regina</h1>
       <h2>May 4th, 2024</h2>
       <h4>
-        You're invited to a low key celebration of our love at Gulf Shores State Park.
+        You're invited to a low key celebration of our love at Gulf State Park.
         The state park has no entrance fees and parking passes will be provided for events where they are required.
         The state park also has an excellent network of mixed use trails, a free bike share, and bike rentals available.
         There is a free shuttle that circulates between the lodging options and the Beach Pavillion until 4:30pm. 
-        If you can't make it, please RSVP no to the reception Google Form and make plans to celebrate with us another time. 
+        If you can't make it, please RSVP no to the dinner Google Form and make plans to celebrate with us another time. 
         We'll post more information here as we get closer to our event.
       </h4>
       <br></br>
