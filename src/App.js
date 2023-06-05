@@ -134,8 +134,8 @@ function App() {
       picture:"https://www.alapark.com/sites/default/files/styles/default/public/2022-04/Gulf%20State%20Park%20Campground%20Back%20In%20Campsites.jpg?itok=0IYma8xD",
       description:"The reception location is in the campground. \n"+
       "The primitive sites have some trees and shade. We highly recommend going with primitive \n"+
-      "if you are comfortable with foregoing electric. Talk to us about borrowing camping gear if you're \n"+
-      "coming from out if town and would like to camp. These will book quickly, we advise making reservations "+
+      "if you are comfortable with foregoing electric and water at your site. Contact us about borrowing camping gear if you're \n"+
+      "coming from out if town and would like to camp. We advise making camping reservations sooner rather than later."+
       "ASAP if you plan to camp. Make sure to search 'Gulf State Park' in the book link and then look for Primitive Camping",
       booklink:"https://www.reservealapark.com/AlabamaWebHome/Facilities/SearchViewUnitAvailabity.aspx",
       toggle: setTogglePrimInfo,
@@ -145,7 +145,7 @@ function App() {
       sleeps:8,
       costs:"$43/night, $5 reservation fee, 2 night minimum",
       picture:"https://www.alapark.com/sites/default/files/styles/default/public/2019-04/dsp_improved_header_2019_0.jpg?itok=k22n7fa_",
-      description:"The reception location is in the campground. The campground has a pool, tennis court, and lots of bathrooms! There is not as much shade as we like in the RV spots. We think section 4-8 is the nicest, but please reach out for more reccomendations if those are booked.",
+      description:"The reception location is in the campground. The campground has a pool, tennis court, and lots of bathrooms! We think sites 4-8 are the nicest, but please email alexandregina.24@gmail.com for more site reccomendations if those are booked. We advise making camping reservations sooner rather than later.",
       booklink:"https://www.reservealapark.com/AlabamaWebHome/Facilities/SearchViewUnitAvailabity.aspx",
       toggle: setToggleRVInfo,
       state: toggleRVInfo,
@@ -153,9 +153,9 @@ function App() {
     {
       name:"The Lodge at Gulf State Park",
       sleeps:"4",
-      costs:"$100/night",
+      costs:"between $200 - $300/night",
       picture:"https://lodgeatgulfstatepark.com/wp-content/uploads/2019/08/about_lodge_entrance_night.jpg",
-      description:"Located on the beach a short walk from the reception location.",
+      description:"Please email us at alexandregina.24@gmail.com if you are interested in staying at the lodge. The complimentary blocks at the lodge are very limited, so a headcount would be helpful. Located on the beach a short walk or shuttle ride from the dinner and ceremony location.",
       booklink:"https://www.guestreservations.com/the-lodge-at-gulf-state-park-a-hilton-hotel/booking?checkIn=05%2F04%2F2024&checkOut=05%2F05%2F2024&rooms=1&adults%5B1%5D=2&children%5B1%5D=0&currency=USD",
       toggle: setToggleHotelInfo,
       state: toggleHotelInfo,
@@ -195,7 +195,7 @@ function App() {
     sleeps:"Variable",
     costs:"Variable",
     picture:"https://a0.muscache.com/im/pictures/prohost-api/Hosting-42610079/original/48fcd267-7937-41ee-bb36-5566888377fb.jpeg?im_w=720",
-    description:"If you are on a budget, prefer not to camp, and would like to stay near the afterparty, there are several good options near the back entrance to the park at E. Morgan Rd. & E. 2nd St.",
+    description:"If you are on a budget, prefer not to camp, and would like to stay near the afterparty, there are several good options near the back entrance to the park on E. Morgan Rd. & E. 2nd St.",
     booklink:"https://www.airbnb.com/s/Gulf-State-Park--Gulf-Shores--Alabama--United-States/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2023-06-01&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=2&channel=EXPLORE&query=Gulf%20State%20Park%2C%20Gulf%20Shores%2C%20AL&date_picker_type=calendar&checkin=2024-05-03&checkout=2024-05-05&source=structured_search_input_header&search_type=autocomplete_click&place_id=ChIJAf8qlDAEmogROxDShN5jCUY",
     toggle: setToggleBnBInfo,
     state: toggleBnBInfo,
@@ -239,8 +239,8 @@ function App() {
         You're invited to a low key celebration of our love at Gulf Shores State Park.
         The state park has no entrance fees and parking passes will be provided for events where they are required.
         The state park also has an excellent network of mixed use trails, a free bike share, and bike rentals available.
-        There is a free shuttle that circulates between the lodging options and the Beach Pavillion. 
-        If you can't make it, please RSVP no to the reception and make plans to celebrate with us another time. 
+        There is a free shuttle that circulates between the lodging options and the Beach Pavillion until 4:30pm. 
+        If you can't make it, please RSVP no to the reception Google Form and make plans to celebrate with us another time. 
         We'll post more information here as we get closer to our event.
       </h4>
       <br></br>
