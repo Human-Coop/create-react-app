@@ -52,7 +52,7 @@ function App() {
       picture: "https://lh3.googleusercontent.com/pw/AJFCJaXpGzgisKIGrXipFGEsGxCU1OmccA8LtjMIfZcjkJviV5u6ZoV-3jA_YliNcok3_k_HKmJA2K1iDV6r2OgStjLLNnqI9Qda9MWKt8es1N6-avphppDyB2GjChJuEAYz8i-toGgD3QrdGWr4DU4fLrTy=w1348-h1798-s-no?authuser=0",
       time: "5:00pm May 4th 2024",
       maplink: "https://www.google.com/maps/place/Beach+Pavilion,+Gulf+Shores,+AL+36542/@30.2547154,-87.6458773,17z/data=!3m1!4b1!4m20!1m13!4m12!1m4!2m2!1d-90.0653353!2d29.9855988!4e1!1m6!1m2!1s0x889a04421f14e28d:0x3ef4a41149165c79!2sBeach+Pavilion,+Gulf+Shores,+AL+36542!2m2!1d-87.6433024!2d30.2547108!3m5!1s0x889a04421f14e28d:0x3ef4a41149165c79!8m2!3d30.2547108!4d-87.6433024!16s%2Fg%2F11c0rvzkhv?entry=ttu",
-      location: "Beach Pavillion Access",
+      location: "Beach Pavillion",
       description: "We will be serving dinner at the beach pavillion \n"+
       "before our ceremony. Due to state park regulations, non-alcoholic drinks will be served. \n"+
       "Don't worry we'll celebrate with drinks at the reception, we just wanted everyone to enjoy the view with dinner! \n",
@@ -236,11 +236,12 @@ function App() {
       <h1>Alex &#38; Regina</h1>
       <h2>May 4th, 2024</h2>
       <h4>
-        You're invited to a low key celebration of our love at the beach at Gulf Shores State Park.
-        You can expect some relaxing beach time, buffet style food at our pre-ceremony dinner, and booze at our reception.
-        The state park has an excellent network of mixed use trails and a free bike share. There are also bike rentals available.
-        If you can't make it to our celebration, please RSVP no to the reception and make plans 
-        to celebrate with us another time. We'll post more information here as we get closer to our event.
+        You're invited to a low key celebration of our love at Gulf Shores State Park.
+        The state park has no entrance fees and parking passes will be provided for events where they are required.
+        The state park also has an excellent network of mixed use trails, a free bike share, and bike rentals available.
+        There is a free shuttle that circulates between the lodging options and the Beach Pavillion. 
+        If you can't make it, please RSVP no to the reception and make plans to celebrate with us another time. 
+        We'll post more information here as we get closer to our event.
       </h4>
       <br></br>
       <h3>
