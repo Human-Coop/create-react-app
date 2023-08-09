@@ -3,7 +3,7 @@
 # Personal React Wedding Website
 Deployed with with Vercel built with React
 
-# Live Domains
+**Live Domains:**
 https://gulfshores.gay
 https://create-react-app-human-coop.vercel.app
 
