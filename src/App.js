@@ -244,17 +244,17 @@ function App() {
         We'll post more information here as we get closer to our event.
       </h4>
       <br></br>
+      <h3><a onClick={() => clickForm(events[3])} >RSVP</a></h3>
+        { events[3].rsvpState && <EventForm event={events[3]} />}
+      <br></br>
       <h3>
         Wedding Events
       </h3>
       <ul>
         {getEvents().map((event,index)=>{
             return <li key={index}>{event.name}&nbsp; 
-                <a onClick={() => clickDetails(event)} >Details</a>
-                { event.rsvp && <Spacer /> }
-                { event.rsvp && <a onClick={() => clickForm(event)} >RSVP</a> }
+                <a onClick={() => clickDetails(event)} >Details</a>    
                 { event.state && <EventDetails event={event} />}
-                { event.rsvpState && <EventForm event={event} />}
               </li>})}
       </ul>
       <br />
