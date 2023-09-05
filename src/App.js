@@ -244,7 +244,7 @@ function App() {
         We'll post more information here as we get closer to our event.
       </h4>
       <br></br>
-      <h3><a onClick={() => clickForm(events[3])} >RSVP</a></h3>
+      <h2><a onClick={() => clickForm(events[3])} >RSVP</a></h2>
         { events[3].rsvpState && <EventForm event={events[3]} />}
       <br></br>
       <h3>
