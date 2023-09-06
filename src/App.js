@@ -151,16 +151,6 @@ function App() {
       state: toggleRVInfo,
     },
     {
-      name:"The Lodge at Gulf State Park",
-      sleeps:"4",
-      costs:"between $200 - $300/night",
-      picture:"https://lodgeatgulfstatepark.com/wp-content/uploads/2019/08/about_lodge_entrance_night.jpg",
-      description:"Please email us at alexandregina.24@gmail.com if you are interested in staying at the lodge. The complimentary blocks at the lodge are very limited, so a headcount would be helpful. Located on the beach a short walk or shuttle ride from the dinner and ceremony location.",
-      booklink:"https://www.guestreservations.com/the-lodge-at-gulf-state-park-a-hilton-hotel/booking?checkIn=05%2F04%2F2024&checkOut=05%2F05%2F2024&rooms=1&adults%5B1%5D=2&children%5B1%5D=0&currency=USD",
-      toggle: setToggleHotelInfo,
-      state: toggleHotelInfo,
-    },
-    {
       name:"Woodside Cabins at Gulf State Park",
       sleeps:"4 cabins with differnt cofigurations sleeping 4-6",
       costs:"$265 - $325/night, senior and military discounts available",
@@ -240,9 +230,12 @@ function App() {
         The state park has no entrance fees and parking passes will be provided for events where they are required.
         The state park also has an excellent network of mixed use trails, a free bike share, and bike rentals available.
         There is a free shuttle that circulates between the lodging options and the Beach Pavillion until 4:30pm. 
-        If you can't make it, please RSVP no to the dinner Google Form and make plans to celebrate with us another time. 
+        If you can't make it, please RSVP and make plans to celebrate with us another time. 
         We'll post more information here as we get closer to our event.
       </h4>
+      <br></br>
+      <h3><a onClick={() => clickForm(events[3])} >Please RSVP Here</a></h3>
+      <div>{ events[3].rsvpState && <EventForm event={events[3]} />}</div>
       <br></br>
       <h3>
         Wedding Events
@@ -250,11 +243,8 @@ function App() {
       <ul>
         {getEvents().map((event,index)=>{
             return <li key={index}>{event.name}&nbsp; 
-                <a onClick={() => clickDetails(event)} >Details</a>
-                { event.rsvp && <Spacer /> }
-                { event.rsvp && <a onClick={() => clickForm(event)} >RSVP</a> }
+                <a onClick={() => clickDetails(event)} >Details</a>    
                 { event.state && <EventDetails event={event} />}
-                { event.rsvpState && <EventForm event={event} />}
               </li>})}
       </ul>
       <br />
