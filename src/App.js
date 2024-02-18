@@ -214,7 +214,7 @@ function App() {
 
 
 
-  function getCountdown(){
+  function jgetCountdown(){
       // Set the date we're counting down to
       var countDownDate = new Date("May 4, 2024 19:00:00").getTime();
       // get date
@@ -235,7 +235,7 @@ function App() {
   }
 
   // Update the count down every 1 second
-  var jcountdown = setInterval(getCountdown(), 10000);
+  var jcountdown = setInterval(jgetCountdown(), 10000);
 
   useEffect(() => {
     async function getCountdown() {
