@@ -228,10 +228,10 @@ function App() {
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
       if (distance > 0) {
-        var str_date = days.toString() + "d " + hours.toString() + "h "+ minutes.toString() + "m " + seconds.toString() + "s "
+        var str_date = days.toString() + "d " + hours.toString() + "h "+ minutes.toString() + "m " + seconds.toString() + "s ";
         return str_date;
       } else{
-        return "We Married"
+        return "We Married";
       }
   }
 
