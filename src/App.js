@@ -230,12 +230,12 @@ function App() {
       if (distance < 0) {
         return days + "d " + hours + "h "+ minutes + "m " + seconds + "s ";
       } else{
-        return "We're Married"
+        return "We Married"
       }
   }
 
   // Update the count down every 1 second
-  var jcountdown = setInterval(getCountdown(), 1000);
+  var jcountdown = setInterval(getCountdown(), 10000);
 
   useEffect(() => {
     async function getCountdown() {
