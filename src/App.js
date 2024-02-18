@@ -280,7 +280,7 @@ function App() {
       </ul>
       <br />
       <h2>Countdown:</h2>
-      <h3>{jcountdown ? jcountdown : 'Loading date...'}</h3>
+      <h3>{jcountdown}</h3>
     </main>
   );
 }
