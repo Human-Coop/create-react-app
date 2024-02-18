@@ -212,17 +212,6 @@ function App() {
     return;
   }
 
-
-
-  function jgetCountdown(){
-
-      return str_date;
-      // if (distance > 0) {
-      // } else{
-      //   return "We Married";
-      // }
-  }
-
   // Update the count down every 1 second
   let jcountdown = setInterval(function(){
     // Set the date we're counting down to
@@ -235,9 +224,13 @@ function App() {
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    var str_date = days.toString() + "d " + hours.toString() + "h "+ minutes.toString() + "m " + seconds.toString() + "s ";
-    document.getElementById("countdown").innerHTML = str_date;
+    // var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    var str_date = days.toString() + "days " + hours.toString() + "hours "+ minutes.toString() + "minutes ";
+    if (distance > 0) {
+      document.getElementById("countdown").innerHTML = str_date;
+    }else{
+      document.getElementById("countdown").innerHTML = "We\'re married, thanks for celebrating with us!";
+    }
   }, 10000);
 
   useEffect(() => {
