@@ -235,7 +235,7 @@ function App() {
   }
 
   // Update the count down every 1 second
-  let jcountdown = setInterval(jgetCountdown(), 10000);
+  let jcountdown = setInterval(function(){document.getElementById("countdown").innerHTML = "EXPIRED";}, 10000);
 
   useEffect(() => {
     async function getCountdown() {
@@ -279,7 +279,7 @@ function App() {
       </ul>
       <br />
       <h2>Countdown:</h2>
-      <h3>{jcountdown}</h3>
+      <h3 id="countdown">{jcountdown}</h3>
     </main>
   );
 }
