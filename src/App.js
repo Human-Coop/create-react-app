@@ -226,17 +226,16 @@ function App() {
       var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
       var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-      if (distance > 0) {
-        var str_date = days.toString() + "d " + hours.toString() + "h "+ minutes.toString() + "m " + seconds.toString() + "s ";
-        return str_date;
-      } else{
-        return "We Married";
-      }
+      var str_date = days.toString() + "d " + hours.toString() + "h "+ minutes.toString() + "m " + seconds.toString() + "s ";
+      return str_date;
+      // if (distance > 0) {
+      // } else{
+      //   return "We Married";
+      // }
   }
 
   // Update the count down every 1 second
-  var jcountdown = setInterval(jgetCountdown(), 10000);
+  let jcountdown = setInterval(jgetCountdown(), 10000);
 
   useEffect(() => {
     async function getCountdown() {
