@@ -137,7 +137,7 @@ function App() {
       "if you are comfortable with foregoing electric and water at your site. Contact us about borrowing camping gear if you're \n"+
       "coming from out if town and would like to camp. We advise making camping reservations sooner rather than later."+
       "ASAP if you plan to camp. Make sure to search 'Gulf State Park' in the book link and then look for Primitive Camping",
-      booklink:"https://www.reservealapark.com/AlabamaWebHome/Facilities/SearchViewUnitAvailabity.aspx",
+      booklink:"https://reserve.alapark.com/gulf/campsites",
       toggle: setTogglePrimInfo,
       state: togglePrimInfo,
     },{
@@ -146,7 +146,7 @@ function App() {
       costs:"$43/night, $5 reservation fee, 2 night minimum",
       picture:"https://www.alapark.com/sites/default/files/styles/default/public/2019-04/dsp_improved_header_2019_0.jpg?itok=k22n7fa_",
       description:"The reception location is in the campground. The campground has a pool, tennis court, and lots of bathrooms! We think sites 4-8 are the nicest, but please email alexandregina.24@gmail.com for more site reccomendations if those are booked. We advise making camping reservations sooner rather than later.",
-      booklink:"https://www.reservealapark.com/AlabamaWebHome/Facilities/SearchViewUnitAvailabity.aspx",
+      booklink:"https://reserve.alapark.com/gulf/campsites",
       toggle: setToggleRVInfo,
       state: toggleRVInfo,
     },
