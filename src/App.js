@@ -225,7 +225,7 @@ function App() {
     <main>
       {/* <h1>Alex &#38; Regina</h1>
       <h2>May 4th, 2024</h2> */}
-      <img src="https://photos.fife.usercontent.google.com/pw/ABLVV85_YCPau6yOmb_Dc_rF3FPFtj3SQthkXGBEYDtVXITeCIxcqLaqxIWf=w1138-h879-s-no-gm?authuser=0"/>
+      <img src="https://lh3.googleusercontent.com/pw/ABLVV878gH9yNyA5qt5BMdcW--28JtWJEMsVrJGb-Wvus6OJD-6ve0pyAU1b_eq2JNS8OGwqF43Q8l9ruNzrG2qZEgb1y05whaYfy-M_d5cl9w_fsS4bm0FXeB9EC35Kn-VDkUayATBbYfRgkSi5Ic6JaerI=w1138-h879-s-no-gm?authuser=0"/>
       <br></br>
       <h3><a onClick={() => clickForm(events[3])} >Please RSVP Here by March 13th</a></h3>
       <div>{ events[3].rsvpState && <EventForm event={events[3]} />}</div>
