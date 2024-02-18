@@ -226,12 +226,15 @@ function App() {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     // var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     var str_date = days.toString() + "days " + hours.toString() + "hours "+ minutes.toString() + "minutes ";
+    var post_message = "We\'re married, thanks for celebrating with us!";
     if (distance > 0) {
       document.getElementById("countdown").innerHTML = str_date;
+      return str_date;
     }else{
-      document.getElementById("countdown").innerHTML = "We\'re married, thanks for celebrating with us!";
+      document.getElementById("countdown").innerHTML = post_message;
+      return post_message;
     }
-  }, 10000);
+  }, 1000);
 
   useEffect(() => {
     async function getCountdown() {
@@ -275,7 +278,7 @@ function App() {
       </ul>
       <br />
       <h2>Countdown:</h2>
-      <h3 id="countdown">{jcountdown}</h3>
+      <h3 id="countdown">{jcountdown ? jcountdown : "Loading..."}</h3>
     </main>
   );
 }
