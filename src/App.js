@@ -277,6 +277,20 @@ function App() {
                 </li>})}
       </ul>
       <br />
+      <h3>Registry</h3>
+      <p> Just you showing up is an amazing gift for us! 
+        If you feel compelled to help us take the honeymoon of our dreams
+        (bickpacking in Oaxaca - details coming soon) or 
+        support some local nonprofits we beleive in here are the links:</p>
+      <div>
+      <a href="">Venmo</a> | <a href="">Zelle</a> | <a href="">Paypal</a>
+      </div>
+      <div>
+      <a href="">Nola2Angola</a> | <a href="">Backyard Bikes</a> | <a href="">Rubarb</a>
+      </div>
+      <br />
+      <a href="">Contribute to our Spotify wedding playlist</a>
+      <br />
       <h2>Countdown:</h2>
       <h3 id="countdown">{jcountdown ? jcountdown : "Loading..."}</h3>
     </main>
