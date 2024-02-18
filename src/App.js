@@ -212,6 +212,31 @@ function App() {
     return;
   }
 
+
+
+  function getCountdown(){
+      // Set the date we're counting down to
+      var countDownDate = new Date("May 4, 2024 19:00:00").getTime();
+      // get date
+      var now = new Date().getTime();
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      if (distance < 0) {
+        return days + "d " + hours + "h "+ minutes + "m " + seconds + "s ";
+      } else{
+        return "We're Married"
+      }
+  }
+
+  // Update the count down every 1 second
+  var jcountdown = setInterval(getCountdown(), 1000);
+
   useEffect(() => {
     async function getCountdown() {
       const res = await fetch('/api/date');
@@ -225,7 +250,7 @@ function App() {
     <main>
       {/* <h1>Alex &#38; Regina</h1>
       <h2>May 4th, 2024</h2> */}
-      <img src="https://lh3.googleusercontent.com/pw/ABLVV878gH9yNyA5qt5BMdcW--28JtWJEMsVrJGb-Wvus6OJD-6ve0pyAU1b_eq2JNS8OGwqF43Q8l9ruNzrG2qZEgb1y05whaYfy-M_d5cl9w_fsS4bm0FXeB9EC35Kn-VDkUayATBbYfRgkSi5Ic6JaerI=w1138-h879-s-no-gm?authuser=0"/>
+      <img width="100%" src="https://lh3.googleusercontent.com/pw/ABLVV878gH9yNyA5qt5BMdcW--28JtWJEMsVrJGb-Wvus6OJD-6ve0pyAU1b_eq2JNS8OGwqF43Q8l9ruNzrG2qZEgb1y05whaYfy-M_d5cl9w_fsS4bm0FXeB9EC35Kn-VDkUayATBbYfRgkSi5Ic6JaerI=w1138-h879-s-no-gm?authuser=0"/>
       <br></br>
       <h3><a onClick={() => clickForm(events[3])} >Please RSVP Here by March 13th</a></h3>
       <div>{ events[3].rsvpState && <EventForm event={events[3]} />}</div>
@@ -254,7 +279,7 @@ function App() {
       </ul>
       <br />
       <h2>Countdown:</h2>
-      <h3>{countdown ? countdown : 'Loading date...'}</h3>
+      <h3>{jcountdown ? jcountdown : 'Loading date...'}</h3>
     </main>
   );
 }
