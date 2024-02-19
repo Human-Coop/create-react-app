@@ -291,7 +291,7 @@ function App() {
         Alternatively, if you would like to help us go on a bikepacking adventure-moon in Oaxaca, or 
         support some of our favorite local nonprofits, here are the links:</p></div>
       <div>
-      <a href="https://venmo.com/u/regigi">Venmo</a> | <a href="https://enroll.zellepay.com/qr-codes?data=eyJuYW1lIjoiQUxFWEFORFJBIiwidG9rZW4iOiJhbGllZTkxQGdtYWlsLmNvbSIsImFjdGlvbiI6InBheW1lbnQifQ==">Zelle alexandregina.24@gmail.com</a> | <a href="https://www.paypal.com/paypalme/alexandregina">Paypal</a>
+      <a href="https://venmo.com/u/regigi">Venmo</a> | <a href="https://enroll.zellepay.com/qr-codes?data=eyJuYW1lIjoiQUxFWEFORFJBIiwidG9rZW4iOiJhbGllZTkxQGdtYWlsLmNvbSIsImFjdGlvbiI6InBheW1lbnQifQ==">Zelle</a> (alexandregina.24@gmail.com) | <a href="https://www.paypal.com/paypalme/alexandregina">Paypal</a>
       </div>
       <div>
       <a href="https://www.nolatoangola.org/sponsors/">Nola2Angola</a> | <a href="https://www.frontyardbikes.com/contribute">Front Yard Bikes</a> | <a href="https://www.rubarbike.org/get-involved/">Rubarb</a>
