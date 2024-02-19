@@ -278,15 +278,23 @@ function App() {
       </ul>
       <br />
       <h3>Registry</h3>
-      <p> Just you showing up is an amazing gift for us! 
-        If you feel compelled to help us take the honeymoon of our dreams
-        (bickpacking in Oaxaca - details coming soon) or 
-        support some local nonprofits we beleive in here are the links:</p>
+      <div> <h4>Making the effort to show up is an amazing gift! </h4>
+        <p>We'd also appreciate helphing hands for our celebration:</p>
+        <ul>
+          <li>Are you a musician or performer?</li>
+          <li>Do you like baking cookies?</li>
+          <li>Are you a strong human who loves moving tables and other objects?</li>
+        </ul>
+        <p>
+        If so, email us at alexandregina.24@gmail.com!
+        </p><p>
+        Alternatively, if you would like to help us go on a bikepacking adventure-moon in Oaxaca, or 
+        support some of our favorite local nonprofits, here are the links:</p></div>
       <div>
-      <a href="">Venmo</a> | <a href="">Zelle</a> | <a href="">Paypal</a>
+      <a href="https://venmo.com/u/regigi">Venmo</a> | <a href="https://enroll.zellepay.com/qr-codes?data=eyJuYW1lIjoiQUxFWEFORFJBIiwidG9rZW4iOiJhbGllZTkxQGdtYWlsLmNvbSIsImFjdGlvbiI6InBheW1lbnQifQ==">Zelle alexandregina.24@gmail.com</a> | <a href="https://www.paypal.com/paypalme/alexandregina">Paypal</a>
       </div>
       <div>
-      <a href="">Nola2Angola</a> | <a href="">Backyard Bikes</a> | <a href="">Rubarb</a>
+      <a href="https://www.nolatoangola.org/sponsors/">Nola2Angola</a> | <a href="https://www.frontyardbikes.com/contribute">Front Yard Bikes</a> | <a href="https://www.rubarbike.org/get-involved/">Rubarb</a>
       </div>
       <br />
       <a href="">Contribute to our Spotify wedding playlist</a>
