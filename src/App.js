@@ -170,16 +170,6 @@ function App() {
       toggle: setToggleLakeCabinInfo,
       state: toggleLakeCabinInfo,
     },
-    {
-    name:"Eagle Cottages at Gulf State Park",
-    sleeps:"6 (3 bedroom, 3 bath)",
-    costs:"$580/night, senior and military discounts available",
-    picture:"https://wrp-graphics-public-old.s3.amazonaws.com/file-hotels-2642-hotel_thumbnail_url.jpg",
-    description:"The crawfish boil and afterparty will take place at the cabins. Waterfront cabins with 6 bike rentals, firewood, restaurant breakfast, and other amenities.",
-    booklink:"https://secure.webrez.com//Bookings105/activity-edit.html?table=hotels&listing_id=2642&mode=command&command=website_availabilitycalendar&hotel_id=2642&language=&&date_from=20240503",
-    toggle: setToggleEagleCabinInfo,
-    state: toggleEagleCabinInfo,
-  },
   {
     name:"Nearby hotels and airbnbs",
     sleeps:"Variable",
