@@ -294,7 +294,7 @@ function App() {
       <a href="https://venmo.com/u/regigi">Venmo</a> | <a href="https://enroll.zellepay.com/qr-codes?data=eyJuYW1lIjoiQUxFWEFORFJBIiwidG9rZW4iOiJhbGllZTkxQGdtYWlsLmNvbSIsImFjdGlvbiI6InBheW1lbnQifQ==">Zelle</a> (alexandregina.24@gmail.com) | <a href="https://www.paypal.com/paypalme/alexandregina">Paypal</a>
       </div>
       <div>
-      <a href="https://www.nolatoangola.org/sponsors/">Nola2Angola</a> | <a href="https://www.frontyardbikes.com/contribute">Front Yard Bikes</a> | <a href="https://www.rubarbike.org/get-involved/">Rubarb</a>
+      <a href="https://www.rubarbike.org/get-involved/">Rubarb</a> | <a href="https://www.nolatoangola.org/sponsors/">Nola2Angola</a> | <a href="https://www.frontyardbikes.com/contribute">Front Yard Bikes</a> 
       </div>
       <br />
       <a href="">Contribute to our Spotify wedding playlist</a>
