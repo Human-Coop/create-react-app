@@ -297,7 +297,7 @@ function App() {
       <a href="https://www.rubarbike.org/get-involved/">Rubarb</a> | <a href="https://www.nolatoangola.org/sponsors/">Nola2Angola</a> | <a href="https://www.frontyardbikes.com/contribute">Front Yard Bikes</a> 
       </div>
       <br />
-      <a href="">Contribute to our Spotify wedding playlist</a>
+      <a href="https://open.spotify.com/playlist/5RAiSe6SbaCCgsGgrcjleD?si=0YNTNJR4Q6yJEi7kuaVjCg&pt=b052c1c1677040941844bdb6602c7725">Contribute to our Spotify wedding playlist</a>
       <br />
       <h2>Countdown:</h2>
       <h3 id="countdown">{jcountdown ? jcountdown : "Loading..."}</h3>
