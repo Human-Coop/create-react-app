@@ -137,7 +137,7 @@ function App() {
       "if you are comfortable with foregoing electric and water at your site. Contact us about borrowing camping gear if you're \n"+
       "coming from out if town and would like to camp. We advise making camping reservations sooner rather than later."+
       "ASAP if you plan to camp. Make sure to search 'Gulf State Park' in the book link and then look for Primitive Camping",
-      booklink:"https://www.reservealapark.com/AlabamaWebHome/Facilities/SearchViewUnitAvailabity.aspx",
+      booklink:"https://reserve.alapark.com/gulf/campsites",
       toggle: setTogglePrimInfo,
       state: togglePrimInfo,
     },{
@@ -146,7 +146,7 @@ function App() {
       costs:"$43/night, $5 reservation fee, 2 night minimum",
       picture:"https://www.alapark.com/sites/default/files/styles/default/public/2019-04/dsp_improved_header_2019_0.jpg?itok=k22n7fa_",
       description:"The reception location is in the campground. The campground has a pool, tennis court, and lots of bathrooms! We think sites 4-8 are the nicest, but please email alexandregina.24@gmail.com for more site reccomendations if those are booked. We advise making camping reservations sooner rather than later.",
-      booklink:"https://www.reservealapark.com/AlabamaWebHome/Facilities/SearchViewUnitAvailabity.aspx",
+      booklink:"https://reserve.alapark.com/gulf/campsites",
       toggle: setToggleRVInfo,
       state: toggleRVInfo,
     },
@@ -212,6 +212,30 @@ function App() {
     return;
   }
 
+  // Update the count down every 1 second
+  let jcountdown = setInterval(function(){
+    // Set the date we're counting down to
+    var countDownDate = new Date("May 4, 2024 19:00:00").getTime();
+    // get date
+    var now = new Date().getTime();
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    // var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    var str_date = days.toString() + "days " + hours.toString() + "hours "+ minutes.toString() + "minutes ";
+    var post_message = "We\'re married, thanks for celebrating with us!";
+    if (distance > 0) {
+      document.getElementById("countdown").innerHTML = str_date;
+      return str_date;
+    }else{
+      document.getElementById("countdown").innerHTML = post_message;
+      return post_message;
+    }
+  }, 1000);
+
   useEffect(() => {
     async function getCountdown() {
       const res = await fetch('/api/date');
@@ -223,18 +247,11 @@ function App() {
 
   return (
     <main>
-      <h1>Alex &#38; Regina</h1>
-      <h2>May 4th, 2024</h2>
-      <h4>
-        You're invited to a low key celebration of our love at Gulf State Park.
-        The state park has no entrance fees and parking passes will be provided for events where they are required.
-        The state park also has an excellent network of mixed use trails, a free bike share, and bike rentals available.
-        There is a free shuttle that circulates between the lodging options and the Beach Pavillion until 4:30pm. 
-        If you can't make it, please RSVP and make plans to celebrate with us another time. 
-        We'll post more information here as we get closer to our event.
-      </h4>
+      {/* <h1>Alex &#38; Regina</h1>
+      <h2>May 4th, 2024</h2> */}
+      <img width="100%" src="https://lh3.googleusercontent.com/pw/ABLVV878gH9yNyA5qt5BMdcW--28JtWJEMsVrJGb-Wvus6OJD-6ve0pyAU1b_eq2JNS8OGwqF43Q8l9ruNzrG2qZEgb1y05whaYfy-M_d5cl9w_fsS4bm0FXeB9EC35Kn-VDkUayATBbYfRgkSi5Ic6JaerI=w1138-h879-s-no-gm?authuser=0"/>
       <br></br>
-      <h3><a onClick={() => clickForm(events[3])} >Please RSVP Here</a></h3>
+      <h3><a onClick={() => clickForm(events[3])} >Please RSVP Here by March 4th</a></h3>
       <div>{ events[3].rsvpState && <EventForm event={events[3]} />}</div>
       <br></br>
       <h3>
@@ -260,8 +277,30 @@ function App() {
                 </li>})}
       </ul>
       <br />
+      <h3>Registry</h3>
+      <div> <h4>Journeying to join us on this special day is truly an amazing gift! </h4>
+        <br></br>
+        <ul>
+          <li>We'd also appreciate helphing hands for our celebration:</li>
+          <li>Are you a musician or performer?</li>
+          <li>Do you like baking cookies?</li>
+          <li>Are you a strong human who loves moving tables and other objects?</li>
+          <li>If so, email us at <a href="alexandregina.24@gmail.com">alexandregina.24@gmail.com</a>!</li>
+        </ul>
+        <p>
+        Alternatively, if you would like to help us go on a bikepacking adventure-moon in Oaxaca, or 
+        support some of our favorite local nonprofits, here are the links:</p></div>
+      <div>
+      <a href="https://venmo.com/u/regigi">Venmo</a> | <a href="https://enroll.zellepay.com/qr-codes?data=eyJuYW1lIjoiQUxFWEFORFJBIiwidG9rZW4iOiJhbGllZTkxQGdtYWlsLmNvbSIsImFjdGlvbiI6InBheW1lbnQifQ==">Zelle</a> (alexandregina.24@gmail.com) | <a href="https://www.paypal.com/paypalme/alexandregina">Paypal</a>
+      </div>
+      <div>
+      <a href="https://www.rubarbike.org/get-involved/">Rubarb</a> | <a href="https://www.nolatoangola.org/sponsors/">Nola2Angola</a> | <a href="https://www.frontyardbikes.com/contribute">Front Yard Bikes</a> 
+      </div>
+      <br />
+      <a href="https://open.spotify.com/playlist/5RAiSe6SbaCCgsGgrcjleD?si=0YNTNJR4Q6yJEi7kuaVjCg&pt=b052c1c1677040941844bdb6602c7725">Contribute to our Spotify wedding playlist</a>
+      <br />
       <h2>Countdown:</h2>
-      <h3>{countdown ? countdown : 'Loading date...'}</h3>
+      <h3 id="countdown">{jcountdown ? jcountdown : "Loading..."}</h3>
     </main>
   );
 }
