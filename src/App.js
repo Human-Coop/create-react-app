@@ -251,7 +251,7 @@ function App() {
       <h2>May 4th, 2024</h2> */}
       <img width="100%" src="https://lh3.googleusercontent.com/pw/ABLVV878gH9yNyA5qt5BMdcW--28JtWJEMsVrJGb-Wvus6OJD-6ve0pyAU1b_eq2JNS8OGwqF43Q8l9ruNzrG2qZEgb1y05whaYfy-M_d5cl9w_fsS4bm0FXeB9EC35Kn-VDkUayATBbYfRgkSi5Ic6JaerI=w1138-h879-s-no-gm?authuser=0"/>
       <br></br>
-      <h3><a onClick={() => clickForm(events[3])} >Please RSVP Here by March 13th</a></h3>
+      <h3><a onClick={() => clickForm(events[3])} >Please RSVP Here by March 4th</a></h3>
       <div>{ events[3].rsvpState && <EventForm event={events[3]} />}</div>
       <br></br>
       <h3>
@@ -278,16 +278,16 @@ function App() {
       </ul>
       <br />
       <h3>Registry</h3>
-      <div> <h4>Making the effort to show up is an amazing gift! </h4>
-        <p>We'd also appreciate helphing hands for our celebration:</p>
+      <div> <h4>Journeying to join us on this special day is truly an amazing gift! </h4>
+        <br></br>
         <ul>
+          <li>We'd also appreciate helphing hands for our celebration:</li>
           <li>Are you a musician or performer?</li>
           <li>Do you like baking cookies?</li>
           <li>Are you a strong human who loves moving tables and other objects?</li>
+          <li>If so, email us at <a href="alexandregina.24@gmail.com">alexandregina.24@gmail.com</a>!</li>
         </ul>
         <p>
-        If so, email us at alexandregina.24@gmail.com!
-        </p><p>
         Alternatively, if you would like to help us go on a bikepacking adventure-moon in Oaxaca, or 
         support some of our favorite local nonprofits, here are the links:</p></div>
       <div>
