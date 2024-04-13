@@ -243,7 +243,7 @@ function App() {
       <br></br>
       {/* <h3><a onClick={() => clickForm(events[3])} >Please RSVP Here by March 4th</a></h3>
       <div>{ events[3].rsvpState && <EventForm event={events[3]} />}</div> */}
-      <img width="100%" src="https://drive.google.com/file/d/1HmVti9-xb3Bvx4y2DF-RMgiaYhDuFyqY/view"/>
+      <img width="100%" src="https://drive.google.com/file/d/1HplJARz_4H74d7D4am9M72957OIwNuSl/preview"/>
       <br></br>
       <a href="https://open.spotify.com/playlist/5RAiSe6SbaCCgsGgrcjleD?si=x1Vd6ReWRQil8bxoYZScwQ&pt=54ee4d5cd13e724f39db3d0607437868&pi=u-V9Te1T8cQEWM">Contribute to our Spotify wedding playlist</a>
       <br />
