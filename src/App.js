@@ -241,9 +241,12 @@ function App() {
       <h2>May 4th, 2024</h2> */}
       <img width="100%" src="https://lh3.googleusercontent.com/pw/ABLVV878gH9yNyA5qt5BMdcW--28JtWJEMsVrJGb-Wvus6OJD-6ve0pyAU1b_eq2JNS8OGwqF43Q8l9ruNzrG2qZEgb1y05whaYfy-M_d5cl9w_fsS4bm0FXeB9EC35Kn-VDkUayATBbYfRgkSi5Ic6JaerI=w1138-h879-s-no-gm?authuser=0"/>
       <br></br>
-      <h3><a onClick={() => clickForm(events[3])} >Please RSVP Here by March 4th</a></h3>
-      <div>{ events[3].rsvpState && <EventForm event={events[3]} />}</div>
+      {/* <h3><a onClick={() => clickForm(events[3])} >Please RSVP Here by March 4th</a></h3>
+      <div>{ events[3].rsvpState && <EventForm event={events[3]} />}</div> */}
+      <img width="100%" src="https://drive.google.com/file/d/1HmVti9-xb3Bvx4y2DF-RMgiaYhDuFyqY/view"/>
       <br></br>
+      <a href="https://open.spotify.com/playlist/5RAiSe6SbaCCgsGgrcjleD?si=x1Vd6ReWRQil8bxoYZScwQ&pt=54ee4d5cd13e724f39db3d0607437868&pi=u-V9Te1T8cQEWM">Contribute to our Spotify wedding playlist</a>
+      <br />
       <h3>
         Wedding Events
       </h3>
@@ -254,7 +257,7 @@ function App() {
                 { event.state && <EventDetails event={event} />}
               </li>})}
       </ul>
-      <br />
+      {/* <br />
       <h3>
         Sleeping Accomodation Suggestions
       </h3>
@@ -266,12 +269,12 @@ function App() {
                 {place.state && <BookingInfo place={place} />}
                 </li>})}
       </ul>
-      <br />
+      <br /> */}
       <h3>Registry</h3>
       <div> <h4>Journeying to join us on this special day is truly an amazing gift! </h4>
         <br></br>
         <ul>
-          <li>We'd also appreciate helphing hands for our celebration:</li>
+          <li>We'd also appreciate helping hands for our celebration:</li>
           <li>Are you a musician or performer?</li>
           <li>Do you like baking cookies?</li>
           <li>Are you a strong human who loves moving tables and other objects?</li>
@@ -287,8 +290,7 @@ function App() {
       <a href="https://www.rubarbike.org/get-involved/">Rubarb</a> | <a href="https://www.nolatoangola.org/sponsors/">Nola2Angola</a> | <a href="https://www.frontyardbikes.com/contribute">Front Yard Bikes</a> 
       </div>
       <br />
-      <a href="https://open.spotify.com/playlist/5RAiSe6SbaCCgsGgrcjleD?si=a81JvfbyQpqxDIiSV_d27A&pt=8fc9c8fc08d1637f1f03da9064be701d&pi=u-NZW5fOSYSD2m">Contribute to our Spotify wedding playlist</a>
-      <br />
+
       <h2>Countdown:</h2>
       <h3 id="countdown">{jcountdown ? jcountdown : "Loading..."}</h3>
     </main>
