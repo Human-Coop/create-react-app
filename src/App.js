@@ -245,7 +245,7 @@ function App() {
       <div>{ events[3].rsvpState && <EventForm event={events[3]} />}</div> */}
       <img width="100%" src="https://lh3.googleusercontent.com/pw/AP1GczPOLfYC-w6lLyHoCrLaVPkvlVY4YSMGOMKxgWSPfVIFZxPrddyuXrnfM7ZoWt3F0pvOLOhmAstKeNo0RILt3H0fBtinSFJ8KktQIgrHOK4b0VAPVJx5ozAoosv3fHeepHVy0HvcLnTq2YroLZwat1-2=w1209-h879-s-no-gm?authuser=0"/>
       <br></br>
-      <a href="https://open.spotify.com/playlist/5RAiSe6SbaCCgsGgrcjleD?si=x1Vd6ReWRQil8bxoYZScwQ&pt=54ee4d5cd13e724f39db3d0607437868&pi=u-V9Te1T8cQEWM">Contribute to our Spotify wedding playlist</a>
+      <a href="https://open.spotify.com/playlist/5RAiSe6SbaCCgsGgrcjleD?si=cqVvxNXVSmOfkLRbbmXwEg&pt=7f1b89392065a0b0e9567bc6006edfe9&pi=u-BdM8vE8aQEO2">Contribute to our Spotify wedding playlist</a>
       <br />
       <h3>
         Wedding Events
